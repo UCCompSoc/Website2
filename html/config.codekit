@@ -114,7 +114,7 @@
 		"outputAbbreviatedPath": "\/resources\/2015.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/bbq.jpg": {
 		"fileType": 16384,
@@ -125,7 +125,7 @@
 		"outputAbbreviatedPath": "\/resources\/bbq.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/blue-arrow.png": {
 		"fileType": 32768,
@@ -136,7 +136,7 @@
 		"outputAbbreviatedPath": "\/resources\/blue-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/blue-ring.png": {
 		"fileType": 32768,
@@ -147,7 +147,7 @@
 		"outputAbbreviatedPath": "\/resources\/blue-ring.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/computer.png": {
 		"fileType": 32768,
@@ -158,7 +158,7 @@
 		"outputAbbreviatedPath": "\/resources\/computer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/dota.jpg": {
 		"fileType": 16384,
@@ -169,7 +169,7 @@
 		"outputAbbreviatedPath": "\/resources\/dota.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/down-arrow-blue.png": {
 		"fileType": 32768,
@@ -180,7 +180,7 @@
 		"outputAbbreviatedPath": "\/resources\/down-arrow-blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/down-arrow-orange.png": {
 		"fileType": 32768,
@@ -191,7 +191,7 @@
 		"outputAbbreviatedPath": "\/resources\/down-arrow-orange.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/down-arrow.png": {
 		"fileType": 32768,
@@ -202,7 +202,7 @@
 		"outputAbbreviatedPath": "\/resources\/down-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/events.php": {
 		"fileType": 8192,
@@ -222,13 +222,13 @@
 		"outputAbbreviatedPath": "\/resources\/firstyear.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 187839,
+		"initialSize": 145910,
 		"inputAbbreviatedPath": "\/resources\/footer.png",
 		"outputAbbreviatedPath": "\/resources\/footer.png",
 		"outputPathIsOutsideProject": 0,
@@ -239,7 +239,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82827,
+		"initialSize": 55836,
 		"inputAbbreviatedPath": "\/resources\/loading.png",
 		"outputAbbreviatedPath": "\/resources\/loading.png",
 		"outputPathIsOutsideProject": 0,
@@ -255,7 +255,7 @@
 		"outputAbbreviatedPath": "\/resources\/mini-compsoc-orange.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/mini-compsoc.png": {
 		"fileType": 32768,
@@ -266,7 +266,7 @@
 		"outputAbbreviatedPath": "\/resources\/mini-compsoc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/next-arrow-blue.png": {
 		"fileType": 32768,
@@ -277,7 +277,7 @@
 		"outputAbbreviatedPath": "\/resources\/next-arrow-blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/next-arrow-orange.png": {
 		"fileType": 32768,
@@ -288,7 +288,7 @@
 		"outputAbbreviatedPath": "\/resources\/next-arrow-orange.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/orange-arrow.png": {
 		"fileType": 32768,
@@ -299,7 +299,7 @@
 		"outputAbbreviatedPath": "\/resources\/orange-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/planet.png": {
 		"fileType": 32768,
@@ -310,7 +310,7 @@
 		"outputAbbreviatedPath": "\/resources\/planet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/prev-arrow-blue.png": {
 		"fileType": 32768,
@@ -321,7 +321,7 @@
 		"outputAbbreviatedPath": "\/resources\/prev-arrow-blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/prev-arrow-orange.png": {
 		"fileType": 32768,
@@ -332,7 +332,7 @@
 		"outputAbbreviatedPath": "\/resources\/prev-arrow-orange.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/sarang.jpg": {
 		"fileType": 16384,
@@ -343,7 +343,7 @@
 		"outputAbbreviatedPath": "\/resources\/sarang.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/star1.png": {
 		"fileType": 32768,
@@ -354,7 +354,7 @@
 		"outputAbbreviatedPath": "\/resources\/star1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/star2.png": {
 		"fileType": 32768,
@@ -365,7 +365,7 @@
 		"outputAbbreviatedPath": "\/resources\/star2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/star3.png": {
 		"fileType": 32768,
@@ -376,7 +376,7 @@
 		"outputAbbreviatedPath": "\/resources\/star3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/star4.png": {
 		"fileType": 32768,
@@ -387,7 +387,7 @@
 		"outputAbbreviatedPath": "\/resources\/star4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/resources\/telogis.png": {
 		"fileType": 32768,
@@ -398,7 +398,7 @@
 		"outputAbbreviatedPath": "\/resources\/telogis.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/scripts\/events.js": {
 		"fileType": 64,

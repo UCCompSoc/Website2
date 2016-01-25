@@ -54,7 +54,7 @@ var create_event = function (name, id, time, image) {
     link.setAttribute('class', 'link');
     link.setAttribute('href', 'https://www.facebook.com/events/' + id + '/');
     link.setAttribute('target', '_blank');
-    link.innerText = "View Event";
+    link.appendChild(title);
 
     var img = new Image();
     img.src = image;
@@ -63,9 +63,8 @@ var create_event = function (name, id, time, image) {
     var event = document.createElement('div');
     event.setAttribute('class', 'event');
     event.appendChild(img);
-    event.appendChild(title);
-    event.appendChild(when);
     event.appendChild(link);
+    event.appendChild(when);
 
     return event;
 };
@@ -92,16 +91,63 @@ var animate_rollover = function(rollover, children, length, i) {
 };
 
 var setup_rollover = function(data, speed) {
+    var i, repeat, interval, longtouch, startx, endx;
+    var next, prev;
     var event_scroll = $('#event-scroll');
     event_scroll.html("");
 
     var events = $(data.data).map(function(_, event){
-        return create_event(
+        var e = create_event(
             event.name,
             event.id,
             event.start_time,
             event.cover.source
         );
+        $(e).on('touchstart', function(ev){
+            clearInterval(interval);
+            longtouch = false;
+            setTimeout(function(){
+                longtouch = true;
+            }, 250);
+            startx = ev.originalEvent.touches[0].pageX;
+        });
+        $(e).on('touchmove', function(ev){
+            ev.preventDefault();
+            endx = ev.originalEvent.touches[0].pageX;
+            $(this).css('transform', 'translate3d(' + (endx - startx)+ 'px,0,0)');
+        });
+        $(e).on('touchend', function(ev){
+            var reset = function(el, d){setTimeout(function(){$(el).css('transform', 'translate3d(0,0,0)');}, d);};
+            var threshold;
+            if (longtouch === true) {
+                threshold =  0.3 * document.body.offsetWidth;
+                if (startx - endx > threshold) {
+                    reset(this, 500);
+                    next(ev);
+                } else if (endx - startx > threshold) {
+                    reset(this, 500);
+                    prev(ev);
+                } else {
+                    reset(this, 0);
+                }
+            } else {
+                threshold =  10;
+                if (startx - endx < threshold) {
+                    reset(this, 500);
+                    prev(ev);
+                } else if (startx - endx > threshold) {
+                    reset(this, 500);
+                    next(ev);
+                } else {
+                    reset(this, 0);
+                }
+            }
+            startx = 0; endx = 0;
+            if (!interval) {
+                interval = setInterval(repeat, speed);
+            }
+        });
+        return e;
     });
 
     var length = events.length;
@@ -113,13 +159,13 @@ var setup_rollover = function(data, speed) {
     c1.style.left = "0";
     c2.style.left = "100%";
 
-    var i = 0;
-    var repeat = function(){
+    i = 0;
+    repeat = function(){
         i = animate_rollover(event_scroll, events, length, i);
     };
-    var interval = setInterval(repeat, speed);
+    interval = setInterval(repeat, speed);
 
-    var next = debounce(function(event) {
+    next = debounce(function(event) {
         event.preventDefault();
         clearInterval(interval);
         i = animate_rollover(event_scroll, events, length, i);
@@ -127,7 +173,7 @@ var setup_rollover = function(data, speed) {
         return false;
     }, 500);
 
-    var prev = debounce(function(event) {
+    prev = debounce(function(event) {
         event.preventDefault();
         clearInterval(interval);
         i = (i - 1 + length) % length;
@@ -187,8 +233,10 @@ var event_callback = function(data) {
         holder.css('padding-bottom', '0');
         holder.css('margin-top', 0);
     } else if (data.data.length === 1) {
+        holder.css('padding-bottom', 'calc(37% + 6rem)');
         show_single(data);
     } else {
+        holder.css('padding-bottom', 'calc(37% + 6rem)');
         setup_arrows(holder);
         setup_rollover(data, 5000);
     }

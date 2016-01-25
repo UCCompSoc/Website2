@@ -2,6 +2,7 @@
 
 @main-blue: #1E2950;
 @main-orange: #EB6109;
+@offwhite: #F3F4F6;
 @fonts: Lato, Arial, sans-serif;
 @alt-font: Georgia, serif;
 
@@ -86,14 +87,18 @@
 }
 
 html, body {
-    font-size: 14pt;
     font-family: @fonts;
     margin: 0;
     padding: 0;
-    background: #f3f4f6;
+    background: @offwhite;
     width: 100vw;
     overflow-x: hidden;
     color: @main-blue;
+}
+
+body { /*font-size here for iOS bug */
+    font-size: 14pt;
+    padding-bottom: 6rem;
 }
 
 nav {
@@ -102,7 +107,7 @@ nav {
     position: fixed;
     z-index: 100;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
     text-transform: uppercase;
     width: 100%;
     max-width: 1000px;
@@ -113,7 +118,7 @@ nav {
     .home-icon {
         position: absolute;
         z-index: 2;
-        top: 0.7rem;
+        top: 0.9rem;
         left: 1rem;
 
         a {
@@ -300,8 +305,21 @@ section{
     max-width: 1000px;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    z-index: 2;
+    z-index: 7;
     position: relative;
+    background: @offwhite;
+
+    &::before {
+        content: "";
+        display: block;
+        background: @offwhite;
+        height: 100%;
+        width: 500%;
+        margin-left: -100%;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
 
     h2 {
         color: @main-orange;
@@ -406,7 +424,7 @@ section{
     width: 100%;
     max-width: 1000px;
     padding-top: 3rem;
-    z-index: 2;
+    z-index: 7;
     position: relative;
 
     h2 {
@@ -437,6 +455,7 @@ section{
         width: 10rem;
         margin-top: 0.8rem;
         text-align: right;
+        z-index: 2;
 
         a {
             display: block;
@@ -454,6 +473,7 @@ section{
         position: relative;
         width: ~"calc(100% - 12rem)";
         left: 12rem;
+        z-index: 1;
     }
 
     section:first-of-type {
@@ -613,18 +633,18 @@ section{
 .event-holder {
     position: relative;
     width: 100%;
-    padding-bottom: ~"calc(37% + 3rem)";
+    padding-bottom: 150px;
     margin-top: 2rem;
     overflow: hidden;
 
     .next-arrow, .prev-arrow {
         display: block;
         text-indent: -99999px;
-        width: 50px;
-        height: ~"calc(100% - 4rem)";;
+        width: 30px;
+        height: ~"calc(100% - 6rem - 15px)";
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 50px auto;
+        background-size: 30px auto;
         position: absolute;
         top: 0;
         margin: 0;
@@ -659,7 +679,7 @@ section{
             width: 100%;
             margin: 0;
             padding: 0;
-            transition: left 0.5s ease-in-out;
+            transition: left 0.5s ease-in-out, transform 0.2s ease-out;
             text-align: center;
             opacity: 1;
 
@@ -668,31 +688,33 @@ section{
             }
 
             img {
-                width: ~"calc(100% - 100px)";
-                margin: 0 auto;
+                width: ~"calc(100% - 80px)";
+                margin: 0 auto 1rem auto;
                 border-radius: 13px;
                 padding: 0.2rem;
                 border: 3px dashed @main-orange;
+            }
+
+            a {
+                text-decoration: none;
             }
 
             .title {
                 color: @main-orange;
                 text-transform: uppercase;
                 font-size: 1.5rem;
-            }
-
-            .time {
-                font-family: @alt-font;
-                font-style: italic;
-            }
-
-            .link {
-                color: @main-orange;
+                margin-bottom: 0.5rem;
                 text-decoration: none;
 
                 &:hover {
                     text-decoration: underline;
                 }
+            }
+
+            .time {
+                font-family: @alt-font;
+                font-style: italic;
+                margin-bottom: 0.2rem;
             }
         }
 
@@ -715,8 +737,8 @@ footer {
     line-height: 3rem;
     width: 100%;
     max-width: 1000px;
-    position: relative;
-    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
     text-align: right;
     z-index: 5;
 }
