@@ -1,0 +1,650 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,900,700,700italic,900italic);
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin-back {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin-back {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin-back {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.full-blue::before {
+  content: "";
+  display: block;
+  background: #1E2950;
+  height: 100%;
+  width: 500%;
+  margin-left: -100%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.clearfix {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.larger {
+  width: 55%;
+}
+.smaller {
+  width: 35%;
+}
+html,
+body {
+  font-size: 14pt;
+  font-family: Lato, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+  width: 100vw;
+  overflow-x: hidden;
+  color: #1E2950;
+}
+nav {
+  background: #1E2950;
+  color: white;
+  position: fixed;
+  z-index: 100;
+  height: 3rem;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 1000px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+nav .home-icon {
+  position: absolute;
+  z-index: 2;
+  top: 0.7rem;
+  left: 1rem;
+}
+nav .home-icon a {
+  display: block;
+  width: 3rem;
+  text-indent: -99999px;
+  background-image: url(/resources/mini-compsoc.png);
+  background-size: 3rem auto;
+  background-repeat: no-repeat;
+}
+nav .home-icon a:hover {
+  background-image: url(/resources/mini-compsoc-orange.png);
+}
+nav .menu-hamburger {
+  display: none;
+}
+nav .main-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+nav .main-menu .home {
+  display: none;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+nav a:hover {
+  color: #EB6109;
+}
+nav a.active {
+  color: #EB6109;
+}
+.hero {
+  background: #1E2950;
+  color: white;
+  height: 37rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
+  width: 95%;
+  max-width: 1000px;
+  position: relative;
+}
+.hero .hero-graphic .planet {
+  position: absolute;
+  width: 45%;
+  max-width: 28rem;
+  height: auto;
+  top: 6.2rem;
+  left: calc(15% - 6.5rem);
+}
+.hero .hero-graphic .planet .blue-arrow {
+  animation: spin 10s infinite linear;
+}
+.hero .hero-graphic .planet .orange-arrow {
+  animation: spin-back 12s infinite linear;
+}
+.hero .hero-graphic .planet .blue-ring {
+  animation: spin 18s infinite linear;
+}
+.hero .hero-graphic .stars {
+  position: absolute;
+  width: 55%;
+  max-width: 34rem;
+  height: auto;
+  top: 3.5rem;
+  left: calc(15% - 9.2rem);
+}
+.hero .hero-graphic .stars .star1 {
+  animation: spin 30s infinite linear, blink 3s infinite ease;
+}
+.hero .hero-graphic .stars .star2 {
+  animation: blink 5s infinite ease;
+}
+.hero .hero-graphic .stars .star3 {
+  animation: spin 25s infinite linear, blink 4s infinite ease;
+}
+.hero .hero-graphic .stars .star4 {
+  animation: spin 35s infinite linear, blink 6s infinite ease;
+}
+.hero .hero-graphic .stars .star5 {
+  animation: blink 4s infinite ease;
+}
+.hero .hero-graphic .stars .star6 {
+  animation: blink 3.5s infinite ease;
+}
+.hero .hero-graphic .stars .star7 {
+  animation: blink 4.5s infinite ease;
+}
+.hero .hero-graphic .stars .star8 {
+  animation: blink 4s infinite ease;
+}
+.hero .hero-text {
+  z-index: 1;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  font-size: 3.7rem;
+  text-align: center;
+  font-weight: 900;
+}
+.hero .hero-text .rollover {
+  position: relative;
+  display: block;
+  color: #EB6109;
+  text-transform: uppercase;
+  margin-top: 0;
+  line-height: 4.5rem;
+  height: 4.5rem;
+  overflow: hidden;
+  padding: 0;
+}
+.hero .hero-text .rollover li {
+  margin: 0;
+  list-style: none;
+  top: 0;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+.hero .next-arrow {
+  text-indent: -99999px;
+  background-image: url(/resources/down-arrow.png);
+  background-size: 3rem auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  width: 3rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+.hero .next-arrow:hover {
+  background-image: url(/resources/down-arrow-orange.png);
+}
+@media screen and (max-width: 800px) {
+  .hero .hero-graphic .stars {
+    display: none;
+  }
+}
+section {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1000px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  z-index: 2;
+  position: relative;
+}
+section h2 {
+  color: #EB6109;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+section .text {
+  display: inline-block;
+  line-height: 1.5em;
+  position: relative;
+  top: 1rem;
+}
+section .text a {
+  color: #EB6109;
+  text-decoration: none;
+}
+section .text a:hover {
+  text-decoration: underline;
+}
+section .image {
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+}
+section .image img {
+  width: 100%;
+}
+section .image img.bordered {
+  padding: 0.2rem;
+  border-radius: 13px;
+  border: 3px dashed #EB6109;
+}
+section .image blockquote {
+  position: relative;
+  display: block;
+  font-size: 1.5rem;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+section .image blockquote::before {
+  content: "“";
+  font-style: italic;
+  font-size: 5rem;
+  position: absolute;
+  left: -3rem;
+  top: -1rem;
+  color: #EB6109;
+}
+section .image blockquote::after {
+  content: "”";
+  font-style: italic;
+  font-size: 5rem;
+  position: absolute;
+  right: -2rem;
+  bottom: -3rem;
+  color: #EB6109;
+}
+section .image attr {
+  color: #EB6109;
+  position: absolute;
+  right: 1rem;
+}
+section .image attr::before {
+  content: " – ";
+}
+section .next-arrow {
+  display: block;
+  clear: both;
+  text-indent: -99999px;
+  background-image: url(/resources/down-arrow-blue.png);
+  background-size: 3rem auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 3rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+section .next-arrow:hover {
+  background-image: url(/resources/down-arrow-orange.png);
+}
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 3rem;
+  z-index: 2;
+  position: relative;
+}
+.main h2 {
+  color: #EB6109;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 1.5rem;
+}
+.main h3 {
+  color: #EB6109;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 0rem;
+}
+.main h4 {
+  color: #EB6109;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.main .mini-menu {
+  display: inline-block;
+  position: fixed;
+  width: 10rem;
+  margin-top: 0.8rem;
+  text-align: right;
+}
+.main .mini-menu a {
+  display: block;
+  color: #EB6109;
+  text-decoration: none;
+  line-height: 2rem;
+}
+.main .mini-menu a:hover {
+  text-decoration: underline;
+}
+.main .body {
+  position: relative;
+  width: calc(100% - 12rem);
+  left: 12rem;
+}
+.main section:first-of-type {
+  padding-top: 2rem;
+}
+.main section:last-of-type {
+  padding-bottom: 4rem;
+}
+.main section .image {
+  top: 1rem;
+}
+.current-committee {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 0;
+}
+.current-committee li {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+  margin-top: 2rem;
+  vertical-align: top;
+}
+.current-committee li img {
+  display: block;
+  width: 70%;
+  border-radius: 1000px;
+  margin-right: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  border: 3px dashed #EB6109;
+}
+.current-committee li span,
+.current-committee li a {
+  display: block;
+}
+.current-committee li .name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.current-committee li .position {
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding: 0.2rem 0;
+}
+.current-committee li a {
+  color: #EB6109;
+}
+.past-committee {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  width: 45%;
+  vertical-align: top;
+}
+.past-committee img {
+  width: 90%;
+  padding: 0.2rem;
+  border: 3px dashed #EB6109;
+  border-radius: 13px;
+}
+.past-committee li {
+  display: block;
+  padding: 0.2rem 0;
+}
+.past-committee li span {
+  display: block;
+}
+.past-committee li .name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.past-committee li .position {
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding: 0.2rem 0;
+}
+.resources {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+.resources a {
+  text-decoration: none;
+}
+.resources li {
+  display: block;
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+.resources li img {
+  float: left;
+  display: block;
+  width: 150px;
+  border-radius: 1000px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  border: 3px dashed #EB6109;
+}
+.resources li span {
+  display: block;
+  color: #1E2950;
+  text-decoration: none;
+}
+.resources li .title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  color: #EB6109;
+}
+.resources li .description {
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding: 0.2rem 0;
+  display: block;
+  margin-left: 2rem;
+}
+.resources li a {
+  color: #EB6109;
+}
+.event-holder {
+  position: relative;
+  width: 100%;
+  padding-bottom: calc(37% + 3rem);
+  margin-top: 2rem;
+  overflow: hidden;
+}
+.event-holder .next-arrow,
+.event-holder .prev-arrow {
+  display: block;
+  text-indent: -99999px;
+  width: 50px;
+  height: calc(100% - 4rem);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+.event-holder .next-arrow {
+  background-image: url(/resources/next-arrow-blue.png);
+  right: 0;
+  left: auto;
+}
+.event-holder .next-arrow:hover {
+  background-image: url(/resources/next-arrow-orange.png);
+}
+.event-holder .prev-arrow {
+  background-image: url(/resources/prev-arrow-blue.png);
+  right: auto;
+  left: 0;
+}
+.event-holder .prev-arrow:hover {
+  background-image: url(/resources/prev-arrow-orange.png);
+}
+.event-holder .event-scroll {
+  width: 100%;
+}
+.event-holder .event-scroll .event {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: left 0.5s ease-in-out;
+  text-align: center;
+  opacity: 1;
+}
+.event-holder .event-scroll .event span,
+.event-holder .event-scroll .event a,
+.event-holder .event-scroll .event img {
+  display: block;
+}
+.event-holder .event-scroll .event img {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  border-radius: 13px;
+  padding: 0.2rem;
+  border: 3px dashed #EB6109;
+}
+.event-holder .event-scroll .event .title {
+  color: #EB6109;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.event-holder .event-scroll .event .time {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.event-holder .event-scroll .event .link {
+  color: #EB6109;
+  text-decoration: none;
+}
+.event-holder .event-scroll .event .link:hover {
+  text-decoration: underline;
+}
+.event-holder .event-scroll .loading {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  animation: spin 1s infinite linear;
+}
+footer {
+  margin: 0 auto;
+  background: #1E2950;
+  color: white;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin-top: 2rem;
+  text-align: right;
+  z-index: 5;
+}
