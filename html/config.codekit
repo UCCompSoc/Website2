@@ -297,50 +297,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/star1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5731,
-		"inputAbbreviatedPath": "\/resources\/star1.png",
-		"outputAbbreviatedPath": "\/resources\/star1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/resources\/star2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4646,
-		"inputAbbreviatedPath": "\/resources\/star2.png",
-		"outputAbbreviatedPath": "\/resources\/star2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/resources\/star3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2679,
-		"inputAbbreviatedPath": "\/resources\/star3.png",
-		"outputAbbreviatedPath": "\/resources\/star3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/resources\/star4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3285,
-		"inputAbbreviatedPath": "\/resources\/star4.png",
-		"outputAbbreviatedPath": "\/resources\/star4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/resources\/telogis.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -605,7 +561,7 @@
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
 	"javascriptSyntaxCheckerStyle": 1,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "console",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

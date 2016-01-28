@@ -13,25 +13,7 @@ include 'include/header.php';
                     </g>
                     <image x="120" y="120" width="260" height="260" xlink:href="/resources/planet.png"/>
                 </svg>
-                <svg class="stars" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 500 500">
-                    <g transform="translate(105, 15)">
-                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star1.png" class="star1"/>
-                    </g>
-                    <g transform="translate(55, 465)">
-                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star2.png" class="star2"/>
-                    </g>
-                    <g transform="translate(485, 395)">
-                        <image x="-15" y="-15" width="30" height="30" transform-origin="485 395" xlink:href="/resources/star3.png" class="star3"/>
-                    </g>
-                    <g transform="translate(365, 20)">
-                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star4.png" class="star4"/>
-                    </g>
-                    <ellipse cx="10" cy="300" rx="10" ry="10" style="fill:#eb6109;" class="star5" />
-                    <ellipse cx="30" cy="150" rx="3" ry="3" style="fill:white;" class="star6" />
-                    <ellipse cx="450" cy="130" rx="5" ry="5" style="fill:#eb6109;" class="star6" />
-                    <ellipse cx="480" cy="230" rx="12" ry="12" style="fill:white;" class="star7" />
-                    <ellipse cx="350" cy="490" rx="8" ry="8" style="fill:#eb6109;" class="star8" />
-                </svg>
+                <?php echo file_get_contents("resources/stars.svg"); ?>
             </div>
 
             <div class='hero-text'>
