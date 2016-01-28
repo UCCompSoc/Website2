@@ -44,11 +44,11 @@ var pretty_date = function(date) {
 var create_event = function (name, id, time, image) {
     var title = document.createElement('span');
     title.setAttribute('class', 'title');
-    title.innerText = name;
+    title.innerHTML = name;
 
     var when = document.createElement('span');
     when.setAttribute('class', 'time');
-    when.innerText = pretty_date(time);
+    when.innerHTML = pretty_date(time);
 
     var link = document.createElement('a');
     link.setAttribute('class', 'link');
@@ -69,6 +69,15 @@ var create_event = function (name, id, time, image) {
     return event;
 };
 
+var set_dot = function(target) {
+    $('.dot').each(function(j, dot) {
+        $(dot).removeClass('active');
+        if (j === target) {
+            $(dot).addClass('active');
+        }
+    });
+};
+
 var animate_rollover = function(rollover, children, length, i) {
     var new_i = (i + 1) % length;
     var grab_next = (new_i + 1) % length;
@@ -86,6 +95,8 @@ var animate_rollover = function(rollover, children, length, i) {
         var c3 = rollover.children()[1];
         c3.style.left = "100%";
     }, 500);
+
+    set_dot(new_i);
 
     return new_i;
 };
@@ -114,10 +125,16 @@ var setup_rollover = function(data, speed) {
         $(e).on('touchmove', function(ev){
             ev.preventDefault();
             endx = ev.originalEvent.touches[0].pageX;
-            $(this).css('transform', 'translate3d(' + (endx - startx)+ 'px,0,0)');
+            $(this).css(
+                'transform',
+                'translate3d(' + 0.5 * (endx - startx) + 'px,0,0)'
+            );
         });
         $(e).on('touchend', function(ev){
-            var reset = function(el, d){setTimeout(function(){$(el).css('transform', 'translate3d(0,0,0)');}, d);};
+            var reset = function(el, d){setTimeout(function(){$(el).css(
+                'transform',
+                'translate3d(0,0,0)'
+            );}, d);};
             var threshold;
             if (longtouch === true) {
                 threshold =  0.3 * document.body.offsetWidth;
@@ -189,12 +206,43 @@ var setup_rollover = function(data, speed) {
             keep.style.left = "100%";
             new_event.style.left = "0";
         }, 1);
+        set_dot(i);
         interval = setInterval(repeat, speed);
         return false;
     }, 500);
 
     $("#next-arrow").on('click', next);
     $("#prev-arrow").on('click', prev);
+
+    $('.dot').each(function(j, dot) {
+        $(dot).on('click', debounce(function(event) {
+            event.preventDefault();
+            clearInterval(interval);
+            var current_kids = event_scroll.children();
+            var keep = current_kids[0];
+            var remove = current_kids[1];
+            event_scroll[0].removeChild(remove);
+            remove.style.left = "0";
+            var new_event = events[j];
+            new_event.style.left = '100%';
+            event_scroll.append(new_event);
+            setTimeout(function() {
+                keep.style.left = "-100%";
+                new_event.style.left = "0";
+                setTimeout(function() {
+                    event_scroll[0].removeChild(keep);
+                    keep.style.left = "0";
+                    var next_j = (j+1) % length;
+                    var next_event = events[next_j];
+                    next_event.style.left = '100%';
+                    event_scroll.append(next_event);
+                }, 500);
+            }, 1);
+            set_dot(j);
+            interval = setInterval(repeat, speed);
+            return false;
+        }, 500));
+    });
 };
 
 var setup_arrows = function(holder) {
@@ -202,16 +250,33 @@ var setup_arrows = function(holder) {
     left.setAttribute('class', 'next-arrow');
     left.setAttribute('id', 'next-arrow');
     left.setAttribute('href', '#');
-    left.innerText = "Next";
+    left.innerHTML = "Next";
 
     var right = document.createElement('a');
     right.setAttribute('class', 'prev-arrow');
     right.setAttribute('id', 'prev-arrow');
     right.setAttribute('href', '#');
-    right.innerText = "Previous";
+    right.innerHTML = "Previous";
 
     holder.append(right);
     holder.append(left);
+};
+
+var setup_dots = function(holder, count) {
+    var dots = document.createElement('div');
+    dots.setAttribute('class', 'dots');
+    for (var i=0; i < count; i++) {
+        var dot = document.createElement('a');
+        if (i === 0) {
+            dot.setAttribute('class', 'dot active');
+        } else {
+            dot.setAttribute('class', 'dot');
+        }
+        dot.setAttribute('href', '#');
+        dot.innerHTML = String(i);
+        dots.appendChild(dot);
+    }
+    holder.append(dots);
 };
 
 var show_single = function(data) {
@@ -233,11 +298,12 @@ var event_callback = function(data) {
         holder.css('padding-bottom', '0');
         holder.css('margin-top', 0);
     } else if (data.data.length === 1) {
-        holder.css('padding-bottom', 'calc(37% + 6rem)');
+        holder.css('padding-bottom', 'calc(37% + 7rem)');
         show_single(data);
     } else {
-        holder.css('padding-bottom', 'calc(37% + 6rem)');
+        holder.css('padding-bottom', 'calc(37% + 7rem)');
         setup_arrows(holder);
+        setup_dots(holder, data.data.length);
         setup_rollover(data, 5000);
     }
 };
@@ -247,7 +313,7 @@ $(function() {
     $(document).ready(function(){
         $.ajax({
             dataType: "json",
-            url: "/resources/events.php",
+            url: "/resources/event-loader.php",
             success: event_callback
         });
     });

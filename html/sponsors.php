@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>CompSoc - University of Canterbury Computer Society</title>
-        <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="/css/mobile.css" media="screen and (max-width: 700px)" title="no title" charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav class='full-blue'>
-            <span class='home-icon'>
-                <a href='/' >Home</a>
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 400 400" class='menu-hamburger' id='menu-hamburger'>
-                <rect x="0" y="80" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-top" />
-                <rect x="0" y="260" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-bottom" />
-            </svg>
-            <span class='main-menu'>
-                <a href='/' class='home'>Home</a>
-                <a href='/about.html'>About</a>
-                <a href='/events.html'>Events</a>
-                <a href='/resources.html'>Resources</a>
-                <a href='/sponsors.html' class='active'>Sponsors</a>
-                <a href='/contact.html'>Contact</a>
-            </span>
-        </nav>
-
+<?php
+$active = "sponsors";
+$title = "Sponsors";
+include 'include/header.php';
+?>
         <div class="main">
 
             <div class='mini-menu'>
@@ -88,9 +65,7 @@
                             <li>Service to the community</li>
                             <li>Outreach programs (Including high school, Maori and Pacifica, and female students.)</li>
                         </ul>
-                    </div>
 
-                    <div class='text'>
                         <p>What you can offer us:</p>
                         <ul>
                             <li>General financial assistance to keep us running throughout the year.</li>
@@ -99,9 +74,7 @@
                             <li>Sponsorship for events, e.g. for food and drinks, speakers, prizes, etc.</li>
                             <li>Representatives from your company coming in to talk about software development in the real world</li>
                         </ul>
-                    </div>
 
-                    <div class="text">
                         <p>Interested in helping us out? Get in contact with the president at <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>.</p>
                     </div>
 

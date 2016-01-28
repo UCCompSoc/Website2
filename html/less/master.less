@@ -15,8 +15,14 @@
     to { -webkit-transform: rotate(360deg); }
 }
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    from {
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+    to {
+        -ms-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
 }
 
 @-moz-keyframes spin-back {
@@ -28,8 +34,14 @@
     to { -webkit-transform: rotate(-360deg); }
 }
 @keyframes spin-back {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(-360deg);}
+    from {
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+    to {
+        -ms-transform:rotate(-360deg);
+        transform:rotate(-360deg);
+    }
 }
 
 @-moz-keyframes blink {
@@ -88,7 +100,7 @@
 
 html, body {
     font-family: @fonts;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: @offwhite;
     width: 100vw;
@@ -98,7 +110,10 @@ html, body {
 
 body { /*font-size here for iOS bug */
     font-size: 14pt;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem; // Footer holder
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 nav {
@@ -123,14 +138,17 @@ nav {
 
         a {
             display: block;
-            width: 3rem;
+            padding: 0;
+            height: 27px;
+            width: 48px;
             text-indent: -99999px;
             background-image: url(/resources/mini-compsoc.png);
             background-size: 3rem auto;
             background-repeat: no-repeat;
+            background-position: top center;
 
             &:hover {
-                background-image: url(/resources/mini-compsoc-orange.png);
+                background-position: bottom center;
             }
         }
     }
@@ -246,7 +264,7 @@ nav {
         z-index: 1;
         width: 50%;
         position: absolute;
-        top: 30%;
+        top: 35%;
         right: 0;
         font-size: 3.7rem;
         text-align: center;
@@ -278,7 +296,7 @@ nav {
         background-image: url(/resources/down-arrow.png);
         background-size: 3rem auto;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: top center;
         position: absolute;
         bottom: 2rem;
         left: 0;
@@ -288,7 +306,7 @@ nav {
         margin: 0 auto;
 
         &:hover {
-            background-image: url(/resources/down-arrow-orange.png);
+            background-position: bottom center;
         }
     }
 }
@@ -303,7 +321,6 @@ section{
     margin: 0 auto;
     width: 95%;
     max-width: 1000px;
-    padding-top: 3rem;
     padding-bottom: 2rem;
     z-index: 7;
     position: relative;
@@ -325,13 +342,18 @@ section{
         color: @main-orange;
         font-size: 2.5rem;
         text-transform: uppercase;
+        margin-top: 0;
+        padding-top: 5rem;
     }
 
     .text {
         display: inline-block;
         line-height: 1.5em;
         position: relative;
-        top: 1rem;
+
+        p:first-of-type {
+            margin-top: 0.5rem;
+        }
 
         a {
             color: @main-orange;
@@ -401,10 +423,10 @@ section{
         display: block;
         clear: both;
         text-indent: -99999px;
-        background-image: url(/resources/down-arrow-blue.png);
+        background-image: url(/resources/down-arrow.png);
         background-size: 3rem auto;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: 33.333% center;
         position: relative;
         bottom: 0;
         left: 0;
@@ -414,7 +436,7 @@ section{
         margin: 0 auto;
 
         &:hover {
-            background-image: url(/resources/down-arrow-orange.png);
+            background-position: bottom center;
         }
     }
 }
@@ -423,9 +445,29 @@ section{
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
-    padding-top: 3rem;
+    margin-top: 3rem;
     z-index: 7;
     position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        background: @offwhite;
+        height: 100%;
+        width: 500%;
+        margin-left: -100%;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+
+    section {
+        padding-top: 3rem;
+
+        &::before {
+            display: none;
+        }
+    }
 
     h2 {
         color: @main-orange;
@@ -487,7 +529,8 @@ section{
     section {
 
         .image {
-            top: 1rem;
+            margin-top: 1rem;
+            top: 0;
         }
     }
 }
@@ -641,32 +684,58 @@ section{
         display: block;
         text-indent: -99999px;
         width: 30px;
-        height: ~"calc(100% - 6rem - 15px)";
-        background-position: center center;
+        height: ~"calc(100% - 7rem - 15px)";
+        background-position: left center;
         background-repeat: no-repeat;
-        background-size: 30px auto;
+        background-size: 60px auto;
         position: absolute;
         top: 0;
         margin: 0;
-    }
-
-    .next-arrow {
-        background-image: url(/resources/next-arrow-blue.png);
-        right: 0;
-        left: auto;
 
         &:hover {
-            background-image: url(/resources/next-arrow-orange.png);
+            background-position: right center;
         }
     }
 
+    .next-arrow {
+        background-image: url(/resources/next-arrow.png);
+        right: 0;
+        left: auto;
+    }
+
     .prev-arrow {
-        background-image: url(/resources/prev-arrow-blue.png);
+        background-image: url(/resources/prev-arrow.png);
+        background-position: left center;
         right: auto;
         left: 0;
+    }
 
-        &:hover {
-            background-image: url(/resources/prev-arrow-orange.png);
+    .dots {
+        display: block;
+        position: absolute;
+        height: 1rem;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        .dot {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 0.5rem;
+            text-indent: -99999px;
+            padding: 0.1rem;
+            margin: 0 1rem;
+            background: @offwhite;
+            border: 2px solid @main-blue;
+            box-shadow: inset 0px 0px 0px 2px @offwhite;
+            transition: background 0.2s ease;
+
+            &:hover, &.active {
+                background: @main-orange;
+            }
         }
     }
 
@@ -739,6 +808,8 @@ footer {
     max-width: 1000px;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     text-align: right;
     z-index: 5;
 }

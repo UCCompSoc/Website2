@@ -1,44 +1,31 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>CompSoc - University of Canterbury Computer Society</title>
-        <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="/css/mobile.css" media="screen and (max-width: 700px)" title="no title" charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body id="home">
-        <nav class='full-blue'>
-            <span class='home-icon'>
-                <a href='/' >Home</a>
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 400 400" class='menu-hamburger' id='menu-hamburger'>
-                <rect x="0" y="80" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-top" />
-                <rect x="0" y="260" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-bottom" />
-            </svg>
-            <span class='main-menu'>
-                <a href='/' class='home active'>Home</a>
-                <a href='/about.html'>About</a>
-                <a href='/events.html'>Events</a>
-                <a href='/resources.html'>Resources</a>
-                <a href='/sponsors.html'>Sponsors</a>
-                <a href='/contact.html'>Contact</a>
-            </span>
-        </nav>
+<?php
+$active = "home";
+include 'include/header.php';
+?>
 
         <section class='hero full-blue'>
             <div class='hero-graphic'>
                 <svg class="planet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 500 500">
-                    <image x="0" y="0" width="500" height="500" transform-origin="250 250" xlink:href="/resources/blue-arrow.png" class="blue-arrow"/>
-                    <image x="40" y="40" width="420" height="420" transform-origin="250 250" xlink:href="/resources/orange-arrow.png" class="orange-arrow"/>
-                    <image x="80" y="80" width="340" height="340" transform-origin="250 250" xlink:href="/resources/blue-ring.png" class="blue-ring"/>
+                    <g transform="translate(250,250)">
+                        <image x="-250" y="-250" width="500" height="500" xlink:href="/resources/blue-arrow.png" class="blue-arrow"/>
+                        <image x="-210" y="-210" width="420" height="420" xlink:href="/resources/orange-arrow.png" class="orange-arrow"/>
+                        <image x="-170" y="-170" width="340" height="340" xlink:href="/resources/blue-ring.png" class="blue-ring"/>
+                    </g>
                     <image x="120" y="120" width="260" height="260" xlink:href="/resources/planet.png"/>
                 </svg>
                 <svg class="stars" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 500 500">
-                    <image x="90" y="0" width="30" height="30" transform-origin="105 15" xlink:href="/resources/star1.png" class="star1"/>
-                    <image x="40" y="450" width="30" height="30" transform-origin="55 465" xlink:href="/resources/star2.png" class="star2"/>
-                    <image x="470" y="380" width="30" height="30" transform-origin="485 395" xlink:href="/resources/star3.png" class="star3"/>
-                    <image x="350" y="5" width="30" height="30" transform-origin="365 20" xlink:href="/resources/star4.png" class="star4"/>
+                    <g transform="translate(105, 15)">
+                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star1.png" class="star1"/>
+                    </g>
+                    <g transform="translate(55, 465)">
+                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star2.png" class="star2"/>
+                    </g>
+                    <g transform="translate(485, 395)">
+                        <image x="-15" y="-15" width="30" height="30" transform-origin="485 395" xlink:href="/resources/star3.png" class="star3"/>
+                    </g>
+                    <g transform="translate(365, 20)">
+                        <image x="-15" y="-15" width="30" height="30" xlink:href="/resources/star4.png" class="star4"/>
+                    </g>
                     <ellipse cx="10" cy="300" rx="10" ry="10" style="fill:#eb6109;" class="star5" />
                     <ellipse cx="30" cy="150" rx="3" ry="3" style="fill:white;" class="star6" />
                     <ellipse cx="450" cy="130" rx="5" ry="5" style="fill:#eb6109;" class="star6" />
@@ -153,11 +140,6 @@
             <div class='clearfix'></div>
         </section>
 
-        <footer class='full-blue'>
-            &copy; CompSoc 2016
-        </footer>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src='scripts/min/main-min.js'></script>
-    </body>
-</html>
+<?php
+include 'include/footer.php';
+?>
