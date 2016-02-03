@@ -5,14 +5,7 @@ include 'include/header.php';
 
         <section class='hero full-blue'>
             <div class='hero-graphic'>
-                <svg class="planet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 500 500">
-                    <g transform="translate(250,250)">
-                        <image x="-250" y="-250" width="500" height="500" xlink:href="/resources/blue-arrow.png" class="blue-arrow"/>
-                        <image x="-210" y="-210" width="420" height="420" xlink:href="/resources/orange-arrow.png" class="orange-arrow"/>
-                        <image x="-170" y="-170" width="340" height="340" xlink:href="/resources/blue-ring.png" class="blue-ring"/>
-                    </g>
-                    <image x="120" y="120" width="260" height="260" xlink:href="/resources/planet.png"/>
-                </svg>
+                <?php echo file_get_contents("resources/planet.svg"); ?>
                 <?php echo file_get_contents("resources/stars.svg"); ?>
             </div>
 

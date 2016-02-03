@@ -145,28 +145,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/blue-arrow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30535,
-		"inputAbbreviatedPath": "\/resources\/blue-arrow.png",
-		"outputAbbreviatedPath": "\/resources\/blue-arrow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/resources\/blue-ring.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/resources\/blue-ring.png",
-		"outputAbbreviatedPath": "\/resources\/blue-ring.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/resources\/computer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -249,17 +227,6 @@
 		"initialSize": 8852,
 		"inputAbbreviatedPath": "\/resources\/next-arrow.png",
 		"outputAbbreviatedPath": "\/resources\/next-arrow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/resources\/orange-arrow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29757,
-		"inputAbbreviatedPath": "\/resources\/orange-arrow.png",
-		"outputAbbreviatedPath": "\/resources\/orange-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

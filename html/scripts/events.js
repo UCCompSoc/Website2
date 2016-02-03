@@ -103,6 +103,7 @@ var animate_rollover = function(rollover, children, length, i) {
 
 var setup_rollover = function(data, speed) {
     var i, repeat, interval, longtouch, startx, endx;
+    var old_css;
     var next, prev;
     var event_scroll = $('#event-scroll');
     event_scroll.html("");
@@ -117,55 +118,57 @@ var setup_rollover = function(data, speed) {
         $(e).on('touchstart', function(ev){
             clearInterval(interval);
             longtouch = false;
+            old_css  = $(this).css('transition');
+            $(this).css('transition', 'none');
             setTimeout(function(){
                 longtouch = true;
-            }, 250);
+            }, 50);
             startx = ev.originalEvent.touches[0].pageX;
+            endx = startx;
+            console.log(startx);
         });
         $(e).on('touchmove', function(ev){
             ev.preventDefault();
             endx = ev.originalEvent.touches[0].pageX;
+            console.log(endx);
             $(this).css(
                 'transform',
-                'translate3d(' + 0.5 * (endx - startx) + 'px,0,0)'
+                'translate3d(' + (endx - startx) + 'px,0,0)'
             );
         });
-        $(e).on('touchend', function(ev){
+        var ended = function(ev){
             var reset = function(el, d){setTimeout(function(){$(el).css(
                 'transform',
                 'translate3d(0,0,0)'
             );}, d);};
-            var threshold;
+            var threshold =  0.3 * document.body.offsetWidth;
+            $(this).css('transition', old_css);
             if (longtouch === true) {
-                threshold =  0.3 * document.body.offsetWidth;
                 if (startx - endx > threshold) {
+                    console.log('Right');
                     reset(this, 500);
                     next(ev);
                 } else if (endx - startx > threshold) {
+                    console.log('Left');
                     reset(this, 500);
                     prev(ev);
                 } else {
                     reset(this, 0);
                 }
             } else {
-                threshold =  10;
-                if (startx - endx < threshold) {
-                    reset(this, 500);
-                    prev(ev);
-                } else if (startx - endx > threshold) {
-                    reset(this, 500);
-                    next(ev);
-                } else {
-                    reset(this, 0);
-                }
+                // No swipe
+                reset(this, 0);
             }
             startx = 0; endx = 0;
             if (!interval) {
                 interval = setInterval(repeat, speed);
             }
-        });
+        };
+        $(e).on('touchend', ended);
+        $(e).on('touchcancel', ended);
         return e;
     });
+    console.log(0.2 * document.body.offsetWidth);
 
     var length = events.length;
 
