@@ -1,5 +1,5 @@
         <footer class='full-blue'>
-            &copy; CompSoc 2016
+            &copy; Design by <a href='http://potatosoftworks.com'>Potato Softworks</a> and CompSoc 2016
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
