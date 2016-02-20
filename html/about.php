@@ -120,7 +120,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Aaron Stockdill'/>
+                            <img src='/resources/aaron.jpg' alt='Aaron Stockdill'/>
                             <span class='name'>Aaron Stockdill</span>
                             <span class='position'>Postgraduate Representative</span>
                             <a href='mailto:aas75@uclive.ac.nz'>aas75@uclive.ac.nz</a>
@@ -221,10 +221,6 @@ include 'include/header.php';
                             <span class='position'>Treasurer</span>
                         </li>
                         <li>
-                            <span class='name'>James Spicer</span>
-                            <span class='position'>Secretary</span>
-                        </li>
-                        <li>
                             <span class='name'>Matt Barton</span>
                             <span class='position'>Academic Events Manager</span>
                         </li>
@@ -264,7 +260,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2013</h3>
-                        <img src='/resources/2015.jpg' alt='2014 Committee' />
+                        <img src='/resources/committee_404.png' alt='2014 Committee' />
                         <li>
                             <span class='name'>Sam Jarman</span>
                             <span class='position'>President</span>
@@ -313,7 +309,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2012</h3>
-                        <img src='/resources/2015.jpg' alt='2014 Committee' />
+                        <img src='/resources/committee_404.png' alt='2014 Committee' />
                         <li>
                             <span class='name'>Neal Nankivell</span>
                             <span class='position'>President</span>
@@ -366,7 +362,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2011</h3>
-                        <img src='/resources/2015.jpg' alt='2014 Committee' />
+                        <img src='/resources/committee_404.png' alt='2014 Committee' />
                         <li>
                             <span class='name'>Daniel Schramm</span>
                             <span class='position'>President</span>
