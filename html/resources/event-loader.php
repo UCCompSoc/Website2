@@ -14,7 +14,7 @@ function fetch_url($url){
 
 }
 
-$timestamp = time() - 86400*150;// - 86400*110;
+$timestamp = time();// - 86400*150;// - 86400*110;
 $query = "UcCompSoc/events?since={$timestamp}&fields=name%2Cstart_time%2Ccover%2Cid";
 
 //App Info, needed for Auth
