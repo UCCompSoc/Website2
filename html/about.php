@@ -18,9 +18,9 @@ include 'include/header.php';
                 <section id='about'>
                     <h3>Who are we?</h3>
 
-                    <div class='image center'>
+                    <!-- <div class='image center'>
                         <img src='resources/sam.gif' alt='Committe gif' class='bordered'>
-                    </div>
+                    </div> -->
 
                     <div class='text'>
                         <p>CompSoc is the University of Canterbury's Computer Society, dedicated to providing the UC community, a wide range of events and opportunities. CompSoc aims to offer students the full uni experience, with great events ranging from social BBQs to academic workshops, as well as enough industry opportunities to succeed university and beyond.</p>
