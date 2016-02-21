@@ -431,16 +431,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Adam.png": {
-		"fileType": 32768,
+	"\/resources\/Adam.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 193232,
-		"inputAbbreviatedPath": "\/resources\/Adam.png",
-		"outputAbbreviatedPath": "\/resources\/Adam.png",
+		"initialSize": 39433,
+		"inputAbbreviatedPath": "\/resources\/Adam.jpg",
+		"outputAbbreviatedPath": "\/resources\/Adam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/bbq.jpg": {
 		"fileType": 16384,
@@ -462,7 +462,7 @@
 		"outputAbbreviatedPath": "\/resources\/Ben.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/committee_2014.jpg": {
 		"fileType": 16384,
@@ -508,16 +508,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/dion.png": {
-		"fileType": 32768,
+	"\/resources\/dion.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.0821e+06,
-		"inputAbbreviatedPath": "\/resources\/dion.png",
-		"outputAbbreviatedPath": "\/resources\/dion.png",
+		"initialSize": 85879,
+		"inputAbbreviatedPath": "\/resources\/dion.jpg",
+		"outputAbbreviatedPath": "\/resources\/dion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/dota.jpg": {
 		"fileType": 16384,
@@ -541,16 +541,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Emily.jpg": {
+	"\/resources\/emily.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 76531,
-		"inputAbbreviatedPath": "\/resources\/Emily.jpg",
-		"outputAbbreviatedPath": "\/resources\/Emily.jpg",
+		"inputAbbreviatedPath": "\/resources\/emily.jpg",
+		"outputAbbreviatedPath": "\/resources\/emily.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/event-loader.php": {
 		"fileType": 8192,
@@ -594,27 +594,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Greg.png": {
-		"fileType": 32768,
+	"\/resources\/greg.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71419,
-		"inputAbbreviatedPath": "\/resources\/Greg.png",
-		"outputAbbreviatedPath": "\/resources\/Greg.png",
+		"initialSize": 13143,
+		"inputAbbreviatedPath": "\/resources\/greg.jpg",
+		"outputAbbreviatedPath": "\/resources\/greg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/resources\/Hamish.png": {
-		"fileType": 32768,
+	"\/resources\/hamish.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 426917,
-		"inputAbbreviatedPath": "\/resources\/Hamish.png",
-		"outputAbbreviatedPath": "\/resources\/Hamish.png",
+		"initialSize": 92544,
+		"inputAbbreviatedPath": "\/resources\/hamish.jpg",
+		"outputAbbreviatedPath": "\/resources\/hamish.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/hms.png": {
 		"fileType": 32768,
@@ -627,27 +627,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Jamie.png": {
-		"fileType": 32768,
+	"\/resources\/jamie.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 97988,
-		"inputAbbreviatedPath": "\/resources\/Jamie.png",
-		"outputAbbreviatedPath": "\/resources\/Jamie.png",
+		"initialSize": 25593,
+		"inputAbbreviatedPath": "\/resources\/jamie.jpg",
+		"outputAbbreviatedPath": "\/resources\/jamie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/resources\/Jonty.png": {
-		"fileType": 32768,
+	"\/resources\/jonty.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.27246e+06,
-		"inputAbbreviatedPath": "\/resources\/Jonty.png",
-		"outputAbbreviatedPath": "\/resources\/Jonty.png",
+		"initialSize": 122475,
+		"inputAbbreviatedPath": "\/resources\/jonty.jpg",
+		"outputAbbreviatedPath": "\/resources\/jonty.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/loading.png": {
 		"fileType": 32768,
@@ -660,16 +660,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Louis.png": {
-		"fileType": 32768,
+	"\/resources\/louis.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77338,
-		"inputAbbreviatedPath": "\/resources\/Louis.png",
-		"outputAbbreviatedPath": "\/resources\/Louis.png",
+		"initialSize": 18342,
+		"inputAbbreviatedPath": "\/resources\/louis.jpg",
+		"outputAbbreviatedPath": "\/resources\/louis.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/mini-compsoc.png": {
 		"fileType": 32768,
@@ -737,16 +737,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Sam.png": {
-		"fileType": 32768,
+	"\/resources\/sam.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 254231,
-		"inputAbbreviatedPath": "\/resources\/Sam.png",
-		"outputAbbreviatedPath": "\/resources\/Sam.png",
+		"initialSize": 53641,
+		"inputAbbreviatedPath": "\/resources\/sam.jpg",
+		"outputAbbreviatedPath": "\/resources\/sam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/resources\/sarang.jpg": {
 		"fileType": 16384,
