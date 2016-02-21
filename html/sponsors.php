@@ -17,11 +17,11 @@ include 'include/header.php';
 
                     <div class='image'>
                         <img src='/resources/telogis.png' alt='computer' style='max-width: 500px;'>
-                        <h4>Telogis</h4>
+                        <h4><a href='http://www.telogis.com/' target="_blank">Telogis</a></h4>
                     </div>
 
                     <div class='text'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Telogis provides a cloud-based connected intelligence software platform that has a transformative effect on the way businesses optimize their mobile assets and critical data. The Telogis platform is about delivering mission-critical, actionable information for companies with mobile workforces and continues to set the standard for global connected intelligence. Telogis has a consistent track record of global growth and innovation, and we continue to build a world-class list of enterprise customers by providing exceptional products and service.</p>
                     </div>
 
                     <div class='clearfix'></div>
