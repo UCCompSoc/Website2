@@ -123,7 +123,7 @@ include 'include/header.php';
                             <img src='/resources/aaron.jpg' alt='Aaron Stockdill'/>
                             <span class='name'>Aaron Stockdill</span>
                             <span class='position'>Postgraduate Representative</span>
-                            <a href='mailto:aas75@uclive.ac.nz'>aas75@uclive.ac.nz</a>
+                            <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
