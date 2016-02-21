@@ -453,13 +453,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/resources\/Ben.jpg": {
+	"\/resources\/ben.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48699,
-		"inputAbbreviatedPath": "\/resources\/Ben.jpg",
-		"outputAbbreviatedPath": "\/resources\/Ben.jpg",
+		"inputAbbreviatedPath": "\/resources\/ben.jpg",
+		"outputAbbreviatedPath": "\/resources\/ben.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
