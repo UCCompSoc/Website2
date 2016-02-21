@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19115",
 "files": {
 	"\/about.php": {
 		"fileType": 8192,
@@ -86,9 +86,9 @@
 		"outputAbbreviatedPath": "\/css\/master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
@@ -145,6 +145,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/resources\/Adam.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193232,
+		"inputAbbreviatedPath": "\/resources\/Adam.png",
+		"outputAbbreviatedPath": "\/resources\/Adam.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/bbq.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -156,6 +167,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/Ben.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48699,
+		"inputAbbreviatedPath": "\/resources\/Ben.jpg",
+		"outputAbbreviatedPath": "\/resources\/Ben.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/committee_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279605,
+		"inputAbbreviatedPath": "\/resources\/committee_2014.jpg",
+		"outputAbbreviatedPath": "\/resources\/committee_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/committee_404.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -163,6 +196,17 @@
 		"initialSize": 64190,
 		"inputAbbreviatedPath": "\/resources\/committee_404.png",
 		"outputAbbreviatedPath": "\/resources\/committee_404.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/CompSoc-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27784,
+		"inputAbbreviatedPath": "\/resources\/CompSoc-Logo.png",
+		"outputAbbreviatedPath": "\/resources\/CompSoc-Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -177,6 +221,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/resources\/dion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0821e+06,
+		"inputAbbreviatedPath": "\/resources\/dion.png",
+		"outputAbbreviatedPath": "\/resources\/dion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/resources\/dota.jpg": {
 		"fileType": 16384,
@@ -200,6 +255,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/Emily.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76531,
+		"inputAbbreviatedPath": "\/resources\/Emily.jpg",
+		"outputAbbreviatedPath": "\/resources\/Emily.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/event-loader.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -208,6 +274,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/eventsHomePage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137987,
+		"inputAbbreviatedPath": "\/resources\/eventsHomePage.jpg",
+		"outputAbbreviatedPath": "\/resources\/eventsHomePage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/face.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20267,
+		"inputAbbreviatedPath": "\/resources\/face.png",
+		"outputAbbreviatedPath": "\/resources\/face.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/resources\/firstyear.png": {
 		"fileType": 32768,
@@ -220,6 +308,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/Greg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71419,
+		"inputAbbreviatedPath": "\/resources\/Greg.png",
+		"outputAbbreviatedPath": "\/resources\/Greg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/Hamish.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 426917,
+		"inputAbbreviatedPath": "\/resources\/Hamish.png",
+		"outputAbbreviatedPath": "\/resources\/Hamish.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/hms.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -227,6 +337,28 @@
 		"initialSize": 256454,
 		"inputAbbreviatedPath": "\/resources\/hms.png",
 		"outputAbbreviatedPath": "\/resources\/hms.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/Jamie.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97988,
+		"inputAbbreviatedPath": "\/resources\/Jamie.png",
+		"outputAbbreviatedPath": "\/resources\/Jamie.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/Jonty.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27246e+06,
+		"inputAbbreviatedPath": "\/resources\/Jonty.png",
+		"outputAbbreviatedPath": "\/resources\/Jonty.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,6 +373,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/resources\/Louis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77338,
+		"inputAbbreviatedPath": "\/resources\/Louis.png",
+		"outputAbbreviatedPath": "\/resources\/Louis.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/resources\/mini-compsoc.png": {
 		"fileType": 32768,
@@ -264,6 +407,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/oldLogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76748,
+		"inputAbbreviatedPath": "\/resources\/oldLogo.png",
+		"outputAbbreviatedPath": "\/resources\/oldLogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/pencil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20685,
+		"inputAbbreviatedPath": "\/resources\/pencil.png",
+		"outputAbbreviatedPath": "\/resources\/pencil.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59009,
+		"inputAbbreviatedPath": "\/resources\/phone.png",
+		"outputAbbreviatedPath": "\/resources\/phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/prev-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -274,6 +450,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/resources\/Sam.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254231,
+		"inputAbbreviatedPath": "\/resources\/Sam.png",
+		"outputAbbreviatedPath": "\/resources\/Sam.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/resources\/sarang.jpg": {
 		"fileType": 16384,
@@ -319,12 +506,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/min\/events-min.js": {
+	"\/scripts\/min\/events.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/min\/events-min.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/min\/events-min-min.js",
+		"inputAbbreviatedPath": "\/scripts\/min\/events.min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/events.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

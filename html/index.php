@@ -29,7 +29,7 @@ include 'include/header.php';
             <h2>About</h2>
 
             <div class='image smaller right'>
-                <img src='resources/CompSoc-Logo-03.png' alt='CompSoc Logo'>
+                <img src='resources/CompSoc-Logo.png' alt='CompSoc Logo'>
             </div>
 
             <div class='text larger left'>

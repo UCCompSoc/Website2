@@ -103,6 +103,6 @@ include 'include/header.php';
         </div>
 
 <?php
-$scripts = array('scripts/events.js');
+$scripts = array('scripts/min/events-min.js');
 include 'include/footer.php';
 ?>
