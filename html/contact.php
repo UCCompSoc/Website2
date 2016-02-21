@@ -44,7 +44,7 @@ include 'include/header.php';
 
                 </section>
 
-                <section id="details">
+                <section id="social-media">
                     <h3>Social Media</h3>
 
                     <div class='text'>
