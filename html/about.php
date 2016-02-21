@@ -83,8 +83,8 @@ include 'include/header.php';
                         <li>
                             <img src='resources/emily.jpg' alt='Emily Price'/>
                             <span class='name'>Emily Price</span>
-                            <span class='position'>Equity Officer <br /> Academic Events Director</span>
-                            <a href='mailto:equity@compsoc.org.nz'>equity@compsoc.org.nz</a>
+                            <span class='position'>Academic Events Director <br /> Equity Officer</span>
+                            <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
