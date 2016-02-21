@@ -18,13 +18,11 @@ include 'include/header.php';
                 <section id='about'>
                     <h3>Who are we?</h3>
 
-                    <div class='image smaller right'>
-                        <img src='/resources/computer.png' alt='computer'>
-                        <blockquote>A very inspirational quote.</blockquote>
-                        <attr>A person</attr>
+                    <div class='image center'>
+                        <img src='resources/sam.gif' alt='Committe gif' class='bordered'>
                     </div>
 
-                    <div class='text larger left'>
+                    <div class='text'>
                         <p>CompSoc is the University of Canterbury's Computer Society, dedicated to providing the UC community, a wide range of events and opportunities. CompSoc aims to offer students the full uni experience, with great events ranging from social BBQs to academic workshops, as well as enough industry opportunities to succeed university and beyond.</p>
 
 
@@ -38,9 +36,7 @@ include 'include/header.php';
                     <h3>History</h3>
 
                     <div class='image smaller left'>
-                        <img src='/resources/computer.png' alt='computer'>
-                        <blockquote>A very inspirational quote.</blockquote>
-                        <attr>A person</attr>
+                        <img src='resources/oldLogo.png' alt='old logo'>
                     </div>
 
                     <div class='text larger right'>
@@ -57,91 +53,91 @@ include 'include/header.php';
 
                     <ul class='current-committee'>
                         <li>
-                            <img src='/resources/sarang.jpg' alt='Sarang Love Leehan'/>
+                            <img src='resources/sarang.jpg' alt='Sarang Love Leehan'/>
                             <span class='name'>Sarang Love Leehan</span>
                             <span class='position'>President</span>
                             <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Dion Woolley'/>
+                            <img src='resources/dion.png' alt='Dion Woolley'/>
                             <span class='name'>Dion Woolley</span>
                             <span class='position'>Vice President</span>
                             <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Greg Best'/>
+                            <img src='resources/firstyear.png' alt='Greg Best'/>
                             <span class='name'>Greg Best</span>
                             <span class='position'>Treasurer</span>
                             <a href='mailto:treasurer@compsoc.org.nz'>treasurer@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Hamish Johnston'/>
+                            <img src='resources/Hamish.png' alt='Hamish Johnston'/>
                             <span class='name'>Hamish Johnston</span>
                             <span class='position'>Secretary <br /> Equity Officer</span>
                             <a href='mailto:secretary@compsoc.org.nz'>secretary@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Emily Price'/>
+                            <img src='resources/firstyear.png' alt='Emily Price'/>
                             <span class='name'>Emily Price</span>
                             <span class='position'>Equity Officer <br /> Academic Events Director</span>
                             <a href='mailto:equity@compsoc.org.nz'>equity@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Ben Moskovitz'/>
+                            <img src='resources/firstyear.png' alt='Ben Moskovitz'/>
                             <span class='name'>Ben Moskovitz</span>
                             <span class='position'>Marketing Director</span>
                             <a href='mailto:marketing@compsoc.org.nz'>marketing@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Samuel Yamoah'/>
+                            <img src='resources/firstyear.png' alt='Samuel Yamoah'/>
                             <span class='name'>Samuel Yamoah</span>
                             <span class='position'>Social Event Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Jonty Trombik'/>
+                            <img src='resources/firstyear.png' alt='Jonty Trombik'/>
                             <span class='name'>Jonty Trombik</span>
                             <span class='position'>Social Event Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Jamie Corrigan'/>
+                            <img src='resources/firstyear.png' alt='Jamie Corrigan'/>
                             <span class='name'>Jamie Corrigan</span>
                             <span class='position'>Academic Tutoring Director</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='/resources/aaron.jpg' alt='Aaron Stockdill'/>
+                            <img src='resources/aaron.jpg' alt='Aaron Stockdill'/>
                             <span class='name'>Aaron Stockdill</span>
                             <span class='position'>Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Adam Tupper'/>
+                            <img src='resources/firstyear.png' alt='Adam Tupper'/>
                             <span class='name'>Adam Tupper</span>
                             <span class='position'>Second Year Representative: <br /> Computer Science</span>
                             <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='http://placehold.it/500x500' alt='Louis Attenborough'/>
+                            <img src='resources/firstyear.png' alt='Louis Attenborough'/>
                             <span class='name'>Louis Attenborough</span>
                             <span class='position'>Second Year Representative: <br /> Software Engineering</span>
                             <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='/resources/firstyear.png' alt='Unknown'/>
+                            <img src='resources/firstyear.png' alt='Unknown'/>
                             <span class='name'>Maybe You!</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
@@ -154,7 +150,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2015</h3>
-                        <img src='/resources/2015.jpg' alt='2015 Committee' />
+                        <img src='resources/2015.jpg' alt='2015 Committee' />
                         <li>
                             <span class='name'>Carina Blair</span>
                             <span class='position'>President</span>
@@ -207,7 +203,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2014</h3>
-                        <img src='/resources/2015.jpg' alt='2014 Committee' />
+                        <img src='resources/committee_2014.jpg' alt='2014 Committee' />
                         <li>
                             <span class='name'>Marcus Stenfert Kroese</span>
                             <span class='position'>President</span>
@@ -260,7 +256,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2013</h3>
-                        <img src='/resources/committee_404.png' alt='2014 Committee' />
+                        <img src='resources/committee_404.png' alt='2013 Committee' />
                         <li>
                             <span class='name'>Sam Jarman</span>
                             <span class='position'>President</span>
@@ -309,7 +305,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2012</h3>
-                        <img src='/resources/committee_404.png' alt='2014 Committee' />
+                        <img src='resources/committee_404.png' alt='2012 Committee' />
                         <li>
                             <span class='name'>Neal Nankivell</span>
                             <span class='position'>President</span>
@@ -362,7 +358,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2011</h3>
-                        <img src='/resources/committee_404.png' alt='2014 Committee' />
+                        <img src='resources/committee_404.png' alt='2011 Committee' />
                         <li>
                             <span class='name'>Daniel Schramm</span>
                             <span class='position'>President</span>

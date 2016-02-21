@@ -17,7 +17,7 @@ include 'include/header.php';
 
                     <div class='event-holder' id='event-holder'>
                         <div class='event-scroll' id='event-scroll'>
-                            <img src='/resources/loading.png' alt='loading' class='loading' />
+                            <img src='resources/loading.png' alt='loading' class='loading' />
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='/resources/bbq.jpg' alt='Barbeque' class='bordered'>
+                        <img src='resources/bbq.jpg' alt='Barbeque' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -55,7 +55,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='/resources/dota.jpg' alt='Dota 2 Tournament' class='bordered'>
+                        <img src='resources/dota.jpg' alt='Dota 2 Tournament' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -103,6 +103,6 @@ include 'include/header.php';
         </div>
 
 <?php
-$scripts = array('scripts/min/events-min.js');
+$scripts = array('scripts/events.js');
 include 'include/footer.php';
 ?>

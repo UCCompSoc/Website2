@@ -316,7 +316,7 @@ $(function() {
     $(document).ready(function(){
         $.ajax({
             dataType: "json",
-            url: "/resources/event-loader.php",
+            url: "resources/event-loader.php",
             success: event_callback
         });
     });

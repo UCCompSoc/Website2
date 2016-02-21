@@ -16,7 +16,7 @@ include 'include/header.php';
                     <h3>Current Sponsors</h3>
 
                     <div class='image'>
-                        <img src='/resources/telogis.png' alt='computer' style='max-width: 500px;'>
+                        <img src='resources/telogis.png' alt='computer' style='max-width: 500px;'>
                         <h4>Telogis</h4>
                     </div>
 
