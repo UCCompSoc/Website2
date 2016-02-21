@@ -200,24 +200,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/resources\/CompSoc Logo-03.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 182795,
-		"inputAbbreviatedPath": "\/resources\/CompSoc Logo-03.png",
-		"outputAbbreviatedPath": "\/resources\/CompSoc Logo-03.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/resources\/CompSoc-Logo-03.png": {
+	"\/resources\/CompSoc-Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 27784,
-		"inputAbbreviatedPath": "\/resources\/CompSoc-Logo-03.png",
-		"outputAbbreviatedPath": "\/resources\/CompSoc-Logo-03.png",
+		"inputAbbreviatedPath": "\/resources\/CompSoc-Logo.png",
+		"outputAbbreviatedPath": "\/resources\/CompSoc-Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
