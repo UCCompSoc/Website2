@@ -134,6 +134,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/aaron.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46543,
+		"inputAbbreviatedPath": "\/resources\/aaron.jpg",
+		"outputAbbreviatedPath": "\/resources\/aaron.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/bbq.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -144,6 +155,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/resources\/committee_404.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64190,
+		"inputAbbreviatedPath": "\/resources\/committee_404.png",
+		"outputAbbreviatedPath": "\/resources\/committee_404.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/resources\/computer.png": {
 		"fileType": 32768,
@@ -198,6 +220,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/hms.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256454,
+		"inputAbbreviatedPath": "\/resources\/hms.png",
+		"outputAbbreviatedPath": "\/resources\/hms.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/loading.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -230,17 +263,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/resources\/planet.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9452,
-		"inputAbbreviatedPath": "\/resources\/planet.png",
-		"outputAbbreviatedPath": "\/resources\/planet.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/resources\/prev-arrow.png": {
 		"fileType": 32768,
