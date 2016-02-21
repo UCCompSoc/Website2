@@ -9,5 +9,6 @@ fi
 rm -rf $name
 
 zip $name *.php .htaccess css/* resources/* scripts/min/* include/* favicons/*
+zip $name -d resources/sam.gif
 
 echo "Done creating $name."
