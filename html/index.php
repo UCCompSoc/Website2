@@ -99,6 +99,8 @@ include 'include/header.php';
             <div class='text larger left'>
                 <p>If you need to reach CompSoc for any reason, please check out our list of ways to contact us. We look forward to hearing from you! </p>
 
+                <p>We also have <a href='https://www.facebook.com/UcCompSoc' target='_blank'>Facebook</a> and <a href='https://twitter.com/UCCompSoc' target='_blank'>Twitter</a>.</p>
+
                 <p><a href='contact.php'>Read more...</a></p>
             </div>
 
