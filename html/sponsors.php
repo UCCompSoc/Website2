@@ -21,7 +21,9 @@ include 'include/header.php';
                     </div>
 
                     <div class='text'>
-                        <p>Telogis provides a cloud-based connected intelligence software platform that has a transformative effect on the way businesses optimize their mobile assets and critical data. The Telogis platform is about delivering mission-critical, actionable information for companies with mobile workforces and continues to set the standard for global connected intelligence. Telogis has a consistent track record of global growth and innovation, and we continue to build a world-class list of enterprise customers by providing exceptional products and service.</p>
+                        <p>Telogis is committed to hiring and retaining a well-qualified, diverse and talented team of professionals while providing a strong company culture, exceptional benefits and employee growth opportunities. The talented, global Telogis team’s ability to exceed customer expectations and deliver the most innovative enterprise software platform in the industry has been the primary driver behind the company’s explosive growth. There is no better time than now to join the team at Telogis.</p>
+
+                        <a href="http://careers.telogis.com/nz/">Get a better IT job right here in NZ</a>
                     </div>
 
                     <div class='clearfix'></div>
