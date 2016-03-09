@@ -56,8 +56,19 @@ var create_event = function (name, id, time, image) {
     link.setAttribute('target', '_blank');
     link.appendChild(title);
 
-    var img = new Image();
-    img.src = image;
+    // var img = new Image();
+    var img = document.createElement('div');
+    // img.src = image;
+    if (image.offset_x === 0) {
+        image.offset_x = 50;
+    }
+    if (image.offset_y === 0) {
+        image.offset_y = 50;
+    }
+    img.setAttribute('class', 'img');
+    img.setAttribute('style', 'background-image: url(' +
+        image.source + '); background-position: ' +
+        image.offset_x + '% ' + image.offset_y + '%');
     img.setAttribute('alt', name);
 
     var event = document.createElement('div');
@@ -113,7 +124,7 @@ var setup_rollover = function(data, speed) {
             event.name,
             event.id,
             event.start_time,
-            event.cover.source
+            event.cover
         );
         $(e).on('touchstart', function(ev){
             clearInterval(interval);
@@ -172,6 +183,8 @@ var setup_rollover = function(data, speed) {
 
     var length = events.length;
 
+    console.log(events);
+    events = events.get().reverse();
     event_scroll.append(events[0]);
     event_scroll.append(events[1]);
     var c1 = event_scroll.children()[0];
@@ -180,10 +193,10 @@ var setup_rollover = function(data, speed) {
     c2.style.left = "100%";
 
     i = 0;
-    repeat = function(){
-        i = animate_rollover(event_scroll, events, length, i);
-    };
-    interval = setInterval(repeat, speed);
+    // repeat = function(){
+    //     i = animate_rollover(event_scroll, events, length, i);
+    // };
+    // interval = setInterval(repeat, speed);
 
     next = debounce(function(event) {
         event.preventDefault();
