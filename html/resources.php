@@ -8,10 +8,31 @@ include 'include/header.php';
 
             <div class='mini-menu'>
                 <h2>Resources</h2>
+                <a href='#tutorial'>Tutorial Resources</a>
                 <a href='#stuff-and-things'>Stuff and Things</a>
             </div>
 
             <div class='body'>
+
+                <section id='tutorial'>
+                    <h3>Tutorial Resources</h3>
+
+                    <ul class='resources'>
+                        <li>
+                            <a href='https://drive.google.com/a/compsoc.org.nz/file/d/0B_BxIeNtPPcMX1lyVFlyclYxMWc/view' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>Introduction to Terminal</span></a>
+                            <span class='description'>This document contains information and a few exercises to help you get acquainted with the terminal. From the CompSoc Workshop on 10/03/2016.</span>
+                            <div class='clearfix'></div>
+                        </li>
+                        <li>
+                            <a href='https://drive.google.com/a/compsoc.org.nz/file/d/0B_BxIeNtPPcMcTdtdkRhdV90RlU/view' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>Terminal Cheat Sheet</span></a>
+                            <span class='description'>All the handy commands you wish you knew earlier.</span>
+                            <div class='clearfix'></div>
+                        </li>
+                    </ul>
+
+                </section>
 
                 <section id="stuff-and-things">
                     <h3>Stuff and Things</h3>
