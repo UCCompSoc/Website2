@@ -109,13 +109,6 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/jamie.jpg' alt='Jamie Corrigan'/>
-                            <span class='name'>Jamie Corrigan</span>
-                            <span class='position'>Academic Tutoring Director</span>
-                            <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
                             <img src='resources/aaron.jpg' alt='Aaron Stockdill'/>
                             <span class='name'>Aaron Stockdill</span>
                             <span class='position'>Postgraduate Representative</span>
@@ -136,9 +129,30 @@ include 'include/header.php';
                             <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <img src='resources/firstyear.png' alt='Unknown'/>
                             <span class='name'>Maybe You!</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li> -->
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Unknown'/>
+                            <span class='name'>Aaron Bong</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Unknown'/>
+                            <span class='name'>Claire Emson</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Unknown'/>
+                            <span class='name'>Tim Hodgson</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
