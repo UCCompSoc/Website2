@@ -81,6 +81,13 @@ include 'include/header.php';
                         </li>
 
                         <li>
+                            <img src='resources/amanda.jpg' alt='Amanda Deacon'/>
+                            <span class='name'>Amanda Deacon</span>
+                            <span class='position'>Academic Events Director</span>
+                            <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
                             <img src='resources/emily.jpg' alt='Emily Price'/>
                             <span class='name'>Emily Price</span>
                             <span class='position'>Academic Events Director <br /> Equity Officer</span>
@@ -137,22 +144,22 @@ include 'include/header.php';
                         </li> -->
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Unknown'/>
+                            <img src='resources/aaronbong.jpg' alt='Aaron Bong'/>
                             <span class='name'>Aaron Bong</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Unknown'/>
+                            <img src='resources/claire.jpg' alt='Claire Emson'/>
                             <span class='name'>Claire Emson</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Unknown'/>
-                            <span class='name'>Tim Hodgson</span>
+                            <img src='resources/philippa.jpg' alt='Philippa Richardson'/>
+                            <span class='name'>Philippa Richardson</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
