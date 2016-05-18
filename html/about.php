@@ -83,7 +83,7 @@ include 'include/header.php';
                         <li>
                             <img src='resources/amanda.jpg' alt='Amanda Deacon'/>
                             <span class='name'>Amanda Deacon</span>
-                            <span class='position'>Academic Events Director</span>
+                            <span class='position'>Academic Tutoring Director</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 

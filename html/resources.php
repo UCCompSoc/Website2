@@ -19,6 +19,12 @@ include 'include/header.php';
 
                     <ul class='resources'>
                         <li>
+                            <a href='/resources/Handout.pdf' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>Introduction to Terminal</span></a>
+                            <span class='description'>This document contains information and a few exercises to help you get acquainted with the terminal. From the CompSoc Workshop on 10/03/2016.</span>
+                            <div class='clearfix'></div>
+                        </li>
+                        <li>
                             <a href='https://drive.google.com/a/compsoc.org.nz/file/d/0B_BxIeNtPPcMX1lyVFlyclYxMWc/view' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Introduction to Terminal</span></a>
                             <span class='description'>This document contains information and a few exercises to help you get acquainted with the terminal. From the CompSoc Workshop on 10/03/2016.</span>
