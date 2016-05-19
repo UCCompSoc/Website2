@@ -65,6 +65,10 @@ include 'include/header.php';
                         </p>
                     </div>
 
+                    <div class='image'>
+                        <img src='resources/industry.jpg' alt='Industry Events' class='bordered'>
+                    </div>
+
                     <div class='text'>
                         <h4>Tech Seminars and Workshops</h4>
                         <p>
