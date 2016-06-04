@@ -3,3 +3,7 @@
         SetOutputFilter DEFLATE
     </filesMatch>
 </IfModule>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule /dota2sponsor/(.*) /dota2sponsor/?c=(.*) [R=301,L]

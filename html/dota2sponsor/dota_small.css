@@ -1,0 +1,34 @@
+header {
+    font-size: 1.1em;
+    background: #C1D4E3;
+    border-bottom: 1em solid #444f6b;
+    padding: 1rem 2rem;
+}
+
+#menubar {
+    display: none;
+}
+
+.hello {
+    padding-top: 1em;
+    line-height: 1.3em;
+}
+
+section {
+    padding: 0 2rem;
+}
+
+.quote img {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 0;
+}
+
+.quote blockquote {
+    padding: 1rem 0;
+}
+
+footer {
+    font-size: 1.5em;
+}

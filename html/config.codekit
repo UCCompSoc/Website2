@@ -660,6 +660,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/resources\/industry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69711,
+		"inputAbbreviatedPath": "\/resources\/industry.jpg",
+		"outputAbbreviatedPath": "\/resources\/industry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/jamie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
