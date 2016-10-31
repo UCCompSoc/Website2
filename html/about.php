@@ -102,21 +102,21 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Nelson Galea'/>
+                            <img src='resources/nelson.jpg' alt='Nelson Galea'/>
                             <span class='name'>Nelson Galea</span>
                             <span class='position'>Marketing Director</span>
                             <a href='mailto:marketing@compsoc.org.nz'>marketing@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Kirill Kirillo'/>
+                            <img src='resources/kirill.jpg' alt='Kirill Kirillo'/>
                             <span class='name'>Kirill Kirillov</span>
                             <span class='position'>Social Event Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Chris Guo'/>
+                            <img src='resources/chris.png' alt='Chris Guo'/>
                             <span class='name'>Chris Guo</span>
                             <span class='position'>Social Event Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
@@ -151,7 +151,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2016</h3>
-                        <img src='resources/committee_404.png' alt='2016 Committee' />
+                        <img src='resources/committee_2016.jpg' alt='2016 Committee' />
                         <li>
                             <span class='name'>Sarang Love Leehan</span>
                             <span class='position'>President</span>
