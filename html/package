@@ -8,6 +8,6 @@ fi
 
 rm -rf $name
 
-zip $name *.php .htaccess css/* resources/* scripts/min/* include/* favicons/*
+zip $name *.php .htaccess css/* resources/* scripts/min/* include/* favicons/* dota2sponsor/*
 
 echo "Done creating $name."

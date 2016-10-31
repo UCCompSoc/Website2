@@ -6,4 +6,16 @@
 
 Options +FollowSymLinks
 RewriteEngine on
-RewriteRule /dota2sponsor/(.*) /dota2sponsor/?c=(.*) [R=301,L]
+# /dota2sponsor/10e7b0 => /dota2sponsor/?c=10e7b0
+RewriteRule ^dota2sponsor/([^/.]+)/?$ dota2sponsor/?c=$1 [L]
+RewriteRule ^learntocode https://www.facebook.com/events/1199833456704291/
+# Rewrite urls without ".php" to their equivalent versions.
+RewriteRule ^workshops resources.php [L]
+RewriteRule ^events events.php [L]
+RewriteRule ^about about.php [L]
+RewriteRule ^sponsors sponsors.php [L]
+RewriteRule ^contact contact.php [L]
+# Protect access to the resources folder...
+RewriteRule ^resources/([^/]+)$ resources/$1 [L]
+
+Options -Indexes

@@ -302,7 +302,7 @@ var show_single = function(data) {
         event.name,
         event.id,
         event.start_time,
-        event.cover.source
+        event.cover
     ));
 };
 

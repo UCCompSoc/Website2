@@ -151,13 +151,6 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/claire.jpg' alt='Claire Emson'/>
-                            <span class='name'>Claire Emson</span>
-                            <span class='position'>First Year Representative</span>
-                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
                             <img src='resources/philippa.jpg' alt='Philippa Richardson'/>
                             <span class='name'>Philippa Richardson</span>
                             <span class='position'>First Year Representative</span>

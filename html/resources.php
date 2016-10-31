@@ -15,9 +15,15 @@ include 'include/header.php';
             <div class='body'>
 
                 <section id='tutorial'>
-                    <h3>Tutorial Resources</h3>
+                    <h3>Workshop Resources</h3>
 
                     <ul class='resources'>
+                        <li>
+                            <a href='/resources/Git_Handout.pdf' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>Git Gud</span></a>
+                            <span class='description'>This workshop is aimed at anybody who wants to learn how to better manage their code. From the CompSoc Workshop on 28/07/2016.</span>
+                            <div class='clearfix'></div>
+                        </li>
                         <li>
                             <a href='/resources/Handout.pdf' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Learn to Code</span></a>

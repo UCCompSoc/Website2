@@ -161,7 +161,7 @@
                 <section id="whatisthis">
                     <h2>What Is This?</h2>
                     <div class='video'>
-                        <iframe src="//drive.google.com/file/d/0B5OLtzImcemhZDFLT3pEcmNqMjA/preview" width="640" height="480"></iframe>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/0Xb3T5iteV0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p>The Winterlude Dota 2 LAN is a gaming tournament where participants will be playing the computer game Dota 2 in a double elimination style tournament.The LAN event will involve participants bringing in their preferred personal computer, and competing in teams of 5.</p>
                     <p>The 2016 Dota 2 Tournament is planned for the 23rd of July and will run for at least 10 hours. We had a turnout of over 150 people at the event last year and we expect that number to be even bigger this year.</p>
@@ -186,8 +186,8 @@
                 </section>
                 <section id="howcanyouhelp">
                     <h2>How Can You Help?</h2>
-                    <p>CompSoc is student run and most of our support come from it’s members, the computer science and engineering departments at our university, the University of Canterbury’s Student Association and a few supportive companies.</p>
-                    <p>While CompSoc LAN events do get a share of the club budget, past events were mainly financially supported by the registration fees from the players, and largely by generous donations from companies, both large and local.</p>
+                    <p>CompSoc and UCGG are student run and most of our support come from it’s members, the computer science and engineering departments at our university, the University of Canterbury’s Student Association and a few supportive companies.</p>
+                    <p>While CompSoc and UCGG LAN events do get a share of the club budget, past events were mainly financially supported by the registration fees from the players, and largely by generous donations from companies, both large and local.</p>
                     <p>This year is our biggest year yet.</p>
                     <p>After the particular success of our last Dota 2 LAN, and the growing media presence of the game and esports in general over the years, there has been a definite hype that has be stirring within the gaming community in Christchurch. While this is exciting for us, it also means that we are going to need the adequate amount of financial support to meet the public’s expectations. This is where you can help us.</p>
 
