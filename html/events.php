@@ -92,9 +92,8 @@ include 'include/header.php';
                     </div>
 
                     <div class='text'>
-                        <p>Other events which we aim to hold in 2016 include:</p>
+                        <p>Other events which we aim to hold in 2017 include:</p>
                         <ul>
-                            <li>Hackathon</li>
                             <li>CantaCode (Cantamath style computer science competition)</li>
                             <li>Smaller social activities such as board game and movie nights</li>
                         </ul>
