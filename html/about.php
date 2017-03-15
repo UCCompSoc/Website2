@@ -49,7 +49,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="committee">
-                    <h3>2016 Committee</h3>
+                    <h3>2017 Committee</h3>
 
                     <ul class='current-committee'>
                         <li>
@@ -81,7 +81,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/hamish.jpg' alt='Hamish Johnston'/>
+                            <img src='resources/hamish.png' alt='Hamish Johnston'/>
                             <span class='name'>Hamish Johnston</span>
                             <span class='position'>Secretary <br /> Equity Officer</span>
                             <a href='mailto:secretary@compsoc.org.nz'>secretary@compsoc.org.nz</a>
