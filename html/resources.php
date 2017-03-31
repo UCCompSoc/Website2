@@ -21,23 +21,23 @@ include 'include/header.php';
                         <li>
                             <a href='/resources/Git_Handout.pdf' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Git Gud</span></a>
-                            <span class='description'>This workshop is aimed at anybody who wants to learn how to better manage their code. From the CompSoc Workshop on 28/07/2016.</span>
+                            <span class='description'>This workshop is aimed at anybody who wants to learn how to better manage their code.</span>
                             <div class='clearfix'></div>
                         </li>
                         <li>
                             <a href='/resources/Handout.pdf' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Learn to Code</span></a>
-                            <span class='description'>A gentle introduction to coding using fun programming languages. From the CompSoc Workshop on 19/05/2016.</span>
+                            <span class='description'>A gentle introduction to coding using fun programming languages.</span>
                             <div class='clearfix'></div>
                         </li>
                         <li>
-                            <a href='https://drive.google.com/a/compsoc.org.nz/file/d/0B_BxIeNtPPcMX1lyVFlyclYxMWc/view' target='_blank'><img src='resources/workshop.png' />
+                            <a href='https://drive.google.com/open?id=0B8dalXEwJSiZYnN5OV8xMFVaSjg' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Introduction to Terminal</span></a>
-                            <span class='description'>This document contains information and a few exercises to help you get acquainted with the terminal. From the CompSoc Workshop on 10/03/2016.</span>
+                            <span class='description'>This document contains information and a few exercises to help you get acquainted with the terminal.</span>
                             <div class='clearfix'></div>
                         </li>
                         <li>
-                            <a href='https://drive.google.com/a/compsoc.org.nz/file/d/0B_BxIeNtPPcMcTdtdkRhdV90RlU/view' target='_blank'><img src='resources/workshop.png' />
+                            <a href='https://drive.google.com/open?id=0B8dalXEwJSiZaWExcWtTY0pjbU0' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Terminal Cheat Sheet</span></a>
                             <span class='description'>All the handy commands you wish you knew earlier.</span>
                             <div class='clearfix'></div>

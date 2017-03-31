@@ -53,7 +53,7 @@ include 'include/header.php';
 
                     <ul class='current-committee'>
                         <li>
-                            <img src='resources/emily.jpg' alt='Emily Price'/>
+                            <img src='resources/Emily.jpg' alt='Emily Price'/>
                             <span class='name'>Emily Price</span>
                             <span class='position'>President</span>
                             <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>

@@ -6,6 +6,8 @@
 
 Options +FollowSymLinks
 RewriteEngine on
+RewriteCond %{HTTP_HOST} ^compsoc\.org.nz$ [NC]
+RewriteRule ^(.*)$ https://www.compsoc.org.nz/$1 [R=301,L] 
 # /dota2sponsor/10e7b0 => /dota2sponsor/?c=10e7b0
 RewriteRule ^dota2sponsor/([^/.]+)/?$ dota2sponsor/?c=$1 [L]
 RewriteRule ^learntocode https://www.facebook.com/events/1199833456704291/
