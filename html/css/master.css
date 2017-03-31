@@ -347,6 +347,9 @@ section .text a {
 section .text a:hover {
   text-decoration: underline;
 }
+section .sponsor {
+  padding-top: 5rem;
+}
 section .image {
   display: inline-block;
   position: relative;

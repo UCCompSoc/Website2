@@ -15,15 +15,34 @@ include 'include/header.php';
                 <section id="current">
                     <h3>Current Sponsors</h3>
 
-                    <div class='image'>
-                        <img src='resources/telogis.png' alt='computer' style='max-width: 500px;'>
-                        <h4><a href='http://www.telogis.com/' target="_blank">Telogis</a></h4>
+                    <div class='sponsor'>
+                        <div class='image'>
+                            <img src='resources/telogis.png' alt='computer' style='max-width: 500px;'>
+                            <h4><a href='https://www.telogis.com/' target="_blank">Telogis</a></h4>
+                        </div>
+
+                        <div class='text'>
+                            <p>Telogis is committed to hiring and retaining a well-qualified, diverse and talented team of professionals while providing a strong company culture, exceptional benefits and employee growth opportunities. The talented, global Telogis team’s ability to exceed customer expectations and deliver the most innovative enterprise software platform in the industry has been the primary driver behind the company’s explosive growth. There is no better time than now to join the team at Telogis.</p>
+
+                            <a href="https://careers.telogis.com/nz/">Get a better IT job right here in NZ</a>
+                        </div>
                     </div>
 
-                    <div class='text'>
-                        <p>Telogis is committed to hiring and retaining a well-qualified, diverse and talented team of professionals while providing a strong company culture, exceptional benefits and employee growth opportunities. The talented, global Telogis team’s ability to exceed customer expectations and deliver the most innovative enterprise software platform in the industry has been the primary driver behind the company’s explosive growth. There is no better time than now to join the team at Telogis.</p>
+                    <div class='clearfix'></div>
 
-                        <a href="http://careers.telogis.com/nz/">Get a better IT job right here in NZ</a>
+                    <div class='sponsor'>
+                        <div class='image'>
+                            <img src='resources/xero.png' alt='computer' style='max-width: 250px;'>
+                            <h4><a href='https://www.xero.com/nz' target="_blank">Xero</a></h4>
+                        </div>
+
+                        <div class='text'>
+                            <p>What started as a beautiful vision in a small Wellington apartment has become a big player in online accounting software globally. With 1 million small business using our software, we're helping make them more profitable and changing business owners lives for the better. It’s challenging, real, and a whole lot of fun.</p>
+
+                            <p>Xero has offices in 15 cities around the globe, and our graduate program is run right here in the centre of it all, New Zealand.  The Xero grad program is about giving you the best possible start on your career. We want you to question the status quo, take chances, and leave your mark.</p>
+
+                            <p>For more information, see <a href="https://xero.com/graduate">xero.com/graduate</a><p>
+                        </div>
                     </div>
 
                     <div class='clearfix'></div>

@@ -137,8 +137,22 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Unknown'/>
-                            <span class='name'>Maybe You!</span>
+                            <img src='resources/firstyear.png' alt='Shaylee Bright'/>
+                            <span class='name'>Shaylee Bright</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Tiger Huang'/>
+                            <span class='name'>Tiger Huang</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Gavin Ong'/>
+                            <span class='name'>Gavin Ong</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
