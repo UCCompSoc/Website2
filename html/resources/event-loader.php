@@ -24,7 +24,7 @@ $app_secret = "4c3b90244b2be30c31a1ab406c8df8cd";
 //Retrieve auth token
 $auth_token = fetch_url("https://graph.facebook.com/oauth/access_token?grant_type=client_credentials&client_id={$app_id}&client_secret={$app_secret}");
 
-$json_object = fetch_url("https://graph.facebook.com/v2.5/{$query}&{$auth_token}");
+$json_object = fetch_url("https://graph.facebook.com/v2.5/{$query}&access_token={$auth_token}");
 
 print($json_object);
 
