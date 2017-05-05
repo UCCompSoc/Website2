@@ -41,7 +41,7 @@ include 'include/header.php';
 
                     <div class='text larger right'>
 
-                        <p>CompSoc is the University of Canterbury's Computer Society. Since our beginning in 2003 we have and continued to hold a strong presence in the UC community. This year we provided a wide range of events and opportunities to over 250 of our members. Going forward into 2016 we strive to expand the range and quality of our events and opportunities.</p>
+                        <p>CompSoc has held a strong presence in the UC community since our beginnings in 2003, but our “written history” begins in late 2010 with six passionate computer science students. Since then, our club has grown steadily - the committee is now more than twice its original size! At the beginning of 2016, CompSoc rebranded to become the beautiful blue and orange masterpiece it is today. In 2017, and moving forward, we strive to expand the range and quality of our events and opportunities for all students.</p>
 
                     </div>
 
