@@ -19,6 +19,12 @@ include 'include/header.php';
 
                     <ul class='resources'>
                         <li>
+                            <a href='/resources/python_game_jam.zip' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>Python Game Jam</span></a>
+                            <span class='description'>Get writing some games with Python!!</span>
+                            <div class='clearfix'></div>
+                        </li>
+                        <li>
                             <a href='/resources/Git_Handout.pdf' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>Git Gud</span></a>
                             <span class='description'>This workshop is aimed at anybody who wants to learn how to better manage their code.</span>
