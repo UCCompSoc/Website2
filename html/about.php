@@ -144,7 +144,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Tiger Huang'/>
+                            <img src='resources/Tiger.jpg' alt='Tiger Huang'/>
                             <span class='name'>Tiger Huang</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
