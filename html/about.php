@@ -81,7 +81,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/hamish.png' alt='Hamish Johnston'/>
+                            <img src='resources/hamish.jpg' alt='Hamish Johnston'/>
                             <span class='name'>Hamish Johnston</span>
                             <span class='position'>Secretary <br /> Equity Officer</span>
                             <a href='mailto:secretary@compsoc.org.nz'>secretary@compsoc.org.nz</a>
@@ -116,7 +116,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/chris.png' alt='Chris Guo'/>
+                            <img src='resources/chris.jpg' alt='Chris Guo'/>
                             <span class='name'>Chris Guo</span>
                             <span class='position'>Social Event Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
