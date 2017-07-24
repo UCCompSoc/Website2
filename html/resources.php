@@ -26,7 +26,7 @@ include 'include/header.php';
                         </li>
                         <li>
                             <a href='/resources/Git_Handout.pdf' target='_blank'><img src='resources/workshop.png' />
-                            <span class='title'>Git Gud</span></a>
+                            <span class='title'>Git Workshop</span></a>
                             <span class='description'>This workshop is aimed at anybody who wants to learn how to better manage their code.</span>
                             <div class='clearfix'></div>
                         </li>
