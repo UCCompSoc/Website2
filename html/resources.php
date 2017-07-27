@@ -7,7 +7,7 @@ include 'include/header.php';
         <div class="main">
 
             <div class='mini-menu'>
-                <h2>Resources</h2>
+                <h1>Resources</h1>
                 <a href='#tutorial'>Tutorial Resources</a>
                 <a href='#stuff-and-things'>Stuff and Things</a>
             </div>
@@ -15,7 +15,7 @@ include 'include/header.php';
             <div class='body'>
 
                 <section id='tutorial'>
-                    <h3>Workshop Resources</h3>
+                    <h2>Workshop Resources</h2>
 
                     <ul class='resources'>
                         <li>
@@ -53,7 +53,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="stuff-and-things">
-                    <h3>Stuff and Things</h3>
+                    <h2>Stuff and Things</h2>
 
                     <ul class='resources'>
                         <li>

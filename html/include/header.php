@@ -24,15 +24,17 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="CompSoc - University of Canterburys Computer Society">
     </head>
     <body <?php if($active == 'home') {echo 'id="home"';} ?>>
+        <?php include_once("analyticstracking.php") ?>
         <nav class='full-blue'>
             <span class='home-icon'>
                 <a href='index.php' >Home</a>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 400 400" class='menu-hamburger' id='menu-hamburger'>
-                <rect x="0" y="80" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-top" />
-                <rect x="0" y="260" rx="40" ry="40" width="400" height="80" style="fill:white;stroke:black;stroke-width:0;opacity:1" transform-origin="200 200" class="bar-bottom" />
+                <rect x="0" y="80" rx="40" ry="40" width="400" height="80" transform-origin="200 200" class="bar-top bar" />
+                <rect x="0" y="260" rx="40" ry="40" width="400" height="80" transform-origin="200 200" class="bar-bottom bar" />
             </svg>
             <span class='main-menu'>
                 <a href='index.php' class='home<?php if($active == 'home') {echo ' active';} ?>'>Home</a>

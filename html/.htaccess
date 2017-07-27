@@ -4,10 +4,19 @@
     </filesMatch>
 </IfModule>
 
+<IfModule mod_expires.c>
+    ExpiresActive on
+
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+</IfModule>
+
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^compsoc\.org.nz$ [NC]
-RewriteRule ^(.*)$ https://www.compsoc.org.nz/$1 [R=301,L] 
+RewriteRule ^(.*)$ https://www.compsoc.org.nz/$1 [R=301,L]
 # /dota2sponsor/10e7b0 => /dota2sponsor/?c=10e7b0
 RewriteRule ^dota2sponsor/([^/.]+)/?$ dota2sponsor/?c=$1 [L]
 RewriteRule ^learntocode https://www.facebook.com/events/1199833456704291/
@@ -19,5 +28,7 @@ RewriteRule ^sponsors sponsors.php [L]
 RewriteRule ^contact contact.php [L]
 # Protect access to the resources folder...
 RewriteRule ^resources/([^/]+)$ resources/$1 [L]
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* ? [F,L]
 
 Options -Indexes

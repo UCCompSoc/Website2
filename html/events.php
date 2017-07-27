@@ -6,14 +6,14 @@ include 'include/header.php';
         <div class="main">
 
             <div class='mini-menu'>
-                <h2>Events</h2>
+                <h1>Events</h1>
                 <a href='#upcoming'>Upcoming Events</a>
                 <a href='#what-we-do'>What we do</a>
             </div>
 
             <div class='body'>
                 <section id="upcoming">
-                    <h3>Upcoming Events</h3>
+                    <h2>Upcoming Events</h2>
 
                     <div class='event-holder' id='event-holder'>
                         <div class='event-scroll' id='event-scroll'>
@@ -32,7 +32,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="what-we-do">
-                    <h3>What we do</h3>
+                    <h2>What we do</h2>
 
                     <div class='text'>
                         <h4>Social BBQs</h4>

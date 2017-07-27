@@ -6,14 +6,14 @@ include 'include/header.php';
         <div class="main">
 
             <div class='mini-menu'>
-                <h2>Sponsors</h2>
+                <h1>Sponsors</h1>
                 <a href='#current'>Current Sponsors</a>
                 <a href='#become-a-sponsor'>Become a Sponsor</a>
             </div>
 
             <div class='body'>
                 <section id="current">
-                    <h3>Current Sponsors</h3>
+                    <h2>Current Sponsors</h2>
 
                     <div class='sponsor'>
                         <div class='image'>
@@ -50,7 +50,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="become-a-sponsor">
-                    <h3>Become a sponsor</h3>
+                    <h2>Become a sponsor</h2>
 
 
 

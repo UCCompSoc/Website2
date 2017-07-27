@@ -26,7 +26,7 @@ include 'include/header.php';
         </section>
 
         <section id='about'>
-            <h2>About</h2>
+            <h1>About</h1>
 
             <div class='image smaller right'>
                 <img src='resources/CompSoc-Logo.png' alt='CompSoc Logo'>
@@ -42,7 +42,7 @@ include 'include/header.php';
         </section>
 
         <section id="events">
-            <h2>Events</h2>
+            <h1>Events</h1>
 
             <div class='image smaller left'>
                 <img src='resources/eventsHomePage.jpg' alt='Event' class='bordered'>
@@ -58,7 +58,7 @@ include 'include/header.php';
         </section>
 
         <section id="resources">
-            <h2>Resources</h2>
+            <h1>Resources</h1>
 
             <div class='image smaller right'>
                 <img src='resources/pencil.png' alt='Pencil'>
@@ -74,7 +74,7 @@ include 'include/header.php';
         </section>
 
         <section id='sponsors'>
-            <h2>Sponsors</h2>
+            <h1>Sponsors</h1>
 
             <div class='image smaller left'>
                 <img src='resources/face.png' alt='Face'>
@@ -90,7 +90,7 @@ include 'include/header.php';
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
+            <h1>Contact</h1>
 
             <div class='image smaller right'>
                 <img src='resources/phone.png' alt='Phone'>

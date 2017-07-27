@@ -11,5 +11,18 @@
                 }
             }
         ?>
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "url": "http://www.compsoc.org.nz",
+          "name": "CompSoc - University of Canterbury Computer Society",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "contact-us@compsoc.org.nz",
+            "contactType": "Customer service"
+          }
+        }
+        </script>
     </body>
 </html>

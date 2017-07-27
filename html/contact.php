@@ -7,7 +7,7 @@ include 'include/header.php';
         <div class="main">
 
             <div class='mini-menu'>
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <a href='#details'>Details</a>
                 <a href='#social-media'>Social Media</a>
             </div>
@@ -15,7 +15,7 @@ include 'include/header.php';
             <div class='body'>
 
                 <section id="details">
-                    <h3>Details</h3>
+                    <h2>Details</h2>
 
                     <div class='text'>
                         <p>For general enquiries, email <a href='mailto:contact-us@compsoc.org.nz'>contact-us@compsoc.org.nz</a>.</p>
@@ -45,7 +45,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="social-media">
-                    <h3>Social Media</h3>
+                    <h2>Social Media</h2>
 
                     <div class='text'>
                         <p>Our Twitter is <a href='https://twitter.com/UCCompSoc' target='_blank'>@UcCompSoc</a>.</p>

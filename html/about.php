@@ -7,7 +7,7 @@ include 'include/header.php';
         <div class="main">
 
             <div class='mini-menu'>
-                <h2>About</h2>
+                <h1>About</h1>
                 <a href='#about'>Who are we?</a>
                 <a href='#history'>History</a>
                 <a href='#committee'>Committee</a>
@@ -16,7 +16,7 @@ include 'include/header.php';
 
             <div class='body'>
                 <section id='about'>
-                    <h3>Who are we?</h3>
+                    <h2>Who are we?</h2>
 
                     <!-- <div class='image center'>
                         <img src='resources/sam.gif' alt='Committe gif' class='bordered'>
@@ -33,7 +33,7 @@ include 'include/header.php';
                 </section>
 
                 <section id='history'>
-                    <h3>History</h3>
+                    <h2>History</h2>
 
                     <div class='image smaller left'>
                         <img src='resources/oldLogo.png' alt='old logo'>
@@ -49,7 +49,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="committee">
-                    <h3>2017 Committee</h3>
+                    <h2>2017 Committee</h2>
 
                     <ul class='current-committee'>
                         <li>
@@ -161,7 +161,7 @@ include 'include/header.php';
                 </section>
 
                 <section id="past-committees">
-                    <h3>Past Committees</h3>
+                    <h2>Past Committees</h2>
 
                     <ul class='past-committee'>
                         <h4>2016</h3>
