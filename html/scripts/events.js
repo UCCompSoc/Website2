@@ -29,7 +29,7 @@ var pretty_date = function(date) {
 
     var d = new Date(date);
 
-    var hours = (function(h){return (h > 12) ? [h - 12, true] : [h, false];})(d.getHours());
+    var hours = (function(h){return (h === 12) ? [h, true] : (h > 12) ? [h - 12, true] : [h, false];})(d.getHours());
     var minutes = (function(m){return (m.length === 1) ? "0" + m : m;})(String(d.getMinutes()));
 
     var string = day_names[d.getDay()] +
