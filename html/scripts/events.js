@@ -27,15 +27,14 @@ var pretty_date = function(date) {
         "Wednesday", "Thursday", "Friday", "Saturday"
     ];
 
-    var main = date.split("+")[0];
-    var d = new Date(main);
+    var d = new Date(date);
 
-    var hours = (function(h){return (h > 12) ? [h - 12, true] : [h, false];})(d.getUTCHours());
-    var minutes = (function(m){return (m.length === 1) ? "0" + m : m;})(String(d.getUTCMinutes()));
+    var hours = (function(h){return (h > 12) ? [h - 12, true] : [h, false];})(d.getHours());
+    var minutes = (function(m){return (m.length === 1) ? "0" + m : m;})(String(d.getMinutes()));
 
-    var string = day_names[d.getUTCDay()] +
-        ', ' + d.getUTCDate() +
-        ' ' + month_names[d.getUTCMonth()] +
+    var string = day_names[d.getDay()] +
+        ', ' + d.getDate() +
+        ' ' + month_names[d.getMonth()] +
         ', ' + hours[0] +
         ':' + minutes + ((hours[1]) ? "pm" : "am");
     return string;
