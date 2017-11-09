@@ -164,7 +164,68 @@ include 'include/header.php';
                     <h2>Past Committees</h2>
 
                     <ul class='past-committee'>
-                        <h4>2016</h3>
+                        <h4>2017</h4>
+                        <img src='resources/committee_404.png' alt='2017 Committee' />
+                        <li>
+                            <span class='name'>Emily Price</span>
+                            <span class='position'>President</span>
+                        </li>
+                        <li>
+                            <span class='name'>Dion Woolley</span>
+                            <span class='position'>Vice President <br /> Postgraduate Representative</span>
+                        </li>
+                        <li>
+                            <span class='name'>Samuel Yamoah</span>
+                            <span class='position'>Treasurer</span>
+                        </li>
+                        <li>
+                            <span class='name'>Hamish Johnston</span>
+                            <span class='position'>Secretary <br /> Equity Officer</span>
+                        </li>
+                        <li>
+                            <span class='name'>Sam Spekreijse</span>
+                            <span class='position'>Academic Events Manager</span>
+                        </li>
+                        <li>
+                            <span class='name'>Amanda Deacon</span>
+                            <span class='position'>Academic Events Manager</span>
+                        </li>
+                        <li>
+                            <span class='name'>Kirill Kirillov</span>
+                            <span class='position'>Social Events Manager</span>
+                        </li>
+                        <li>
+                            <span class='name'>Chris Guo</span>
+                            <span class='position'>Social Events Manager</span>
+                        </li>
+                        <li>
+                            <span class='name'>Nelson Galea</span>
+                            <span class='position'>Marketing Director</span>
+                        </li>
+                        <li>
+                            <span class='name'>Aaron Bong</span>
+                            <span class='position'>Second Year Representative <br /> Equity Officer</span>
+                        </li>
+                        <li>
+                            <span class='name'>Philippa Richardson</span>
+                            <span class='position'>Second Year Representative</span>
+                        </li>
+                        <li>
+                            <span class='name'>Shaylee Bright</span>
+                            <span class='position'>First Year Representative</span>
+                        </li>
+                        <li>
+                            <span class='name'>Tiger Huang</span>
+                            <span class='position'>First Year Representative</span>
+                        </li>
+                        <li>
+                            <span class='name'>Gavin Ong</span>
+                            <span class='position'>First Year Representative</span>
+                        </li>
+                    </ul>
+
+                    <ul class='past-committee'>
+                        <h4>2016</h4>
                         <img src='resources/committee_2016.jpg' alt='2016 Committee' />
                         <li>
                             <span class='name'>Sarang Love Leehan</span>
@@ -225,7 +286,7 @@ include 'include/header.php';
                     </ul>
 
                     <ul class='past-committee'>
-                        <h4>2015</h3>
+                        <h4>2015</h4>
                         <img src='resources/2015.jpg' alt='2015 Committee' />
                         <li>
                             <span class='name'>Carina Blair</span>
@@ -278,7 +339,7 @@ include 'include/header.php';
                     </ul>
 
                     <ul class='past-committee'>
-                        <h4>2014</h3>
+                        <h4>2014</h4>
                         <img src='resources/committee_2014.jpg' alt='2014 Committee' />
                         <li>
                             <span class='name'>Marcus Stenfert Kroese</span>
@@ -331,7 +392,7 @@ include 'include/header.php';
                     </ul>
 
                     <ul class='past-committee'>
-                        <h4>2013</h3>
+                        <h4>2013</h4>
                         <img src='resources/committee_404.png' alt='2013 Committee' />
                         <li>
                             <span class='name'>Sam Jarman</span>
@@ -380,7 +441,7 @@ include 'include/header.php';
                     </ul>
 
                     <ul class='past-committee'>
-                        <h4>2012</h3>
+                        <h4>2012</h4>
                         <img src='resources/committee_404.png' alt='2012 Committee' />
                         <li>
                             <span class='name'>Neal Nankivell</span>
@@ -433,7 +494,7 @@ include 'include/header.php';
                     </ul>
 
                     <ul class='past-committee'>
-                        <h4>2011</h3>
+                        <h4>2011</h4>
                         <img src='resources/committee_404.png' alt='2011 Committee' />
                         <li>
                             <span class='name'>Daniel Schramm</span>
