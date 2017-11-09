@@ -1,5 +1,5 @@
         <footer class='full-blue'>
-            &copy; CompSoc and <a href='http://www.potatosoftworks.com/' target='_blank'>Potato Softworks</a> 2017
+            &copy; CompSoc and <a href='http://www.potatosoftworks.com/' target='_blank'>Potato Softworks</a> 2018
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
