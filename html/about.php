@@ -49,110 +49,152 @@ include 'include/header.php';
                 </section>
 
                 <section id="committee">
-                    <h2>2017 Committee</h2>
+                    <h2>2018 Committee</h2>
 
                     <ul class='current-committee'>
                         <li>
-                            <img src='resources/Emily.jpg' alt='Emily Price'/>
-                            <span class='name'>Emily Price</span>
+                            <img src='resources/firstyear.png' alt='Louis Attenborough'/>
+                            <span class='name'>Louis Attenborough</span>
                             <span class='position'>President</span>
                             <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/dion.jpg' alt='Dion Woolley'/>
-                            <span class='name'>Dion Woolley</span>
-                            <span class='position'>Vice President <br /> Postgraduate Representative</span>
-                            <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
-                            <img src='resources/sam.jpg' alt='Samual Yamoah'/>
-                            <span class='name'>Samual Yamoah</span>
+                            <img src='resources/kirill2018.jpg' alt='Kirill Kirillov'/>
+                            <span class='name'>Kirill Kirillov</span>
                             <span class='position'>Vice President</span>
                             <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/louis.jpg' alt='Louis Attenborough'/>
-                            <span class='name'>Louis Attenborough</span>
+                            <img src='resources/firstyear.png' alt='Hamish Johnston'/>
+                            <span class='name'>Hamish Johnston</span>
+                            <span class='position'>Vice President <br /> Equity Officer</span>
+                            <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/philippa.jpg' alt='Philippa Richardson'/>
+                            <span class='name'>Philippa Richardson</span>
                             <span class='position'>Treasurer</span>
                             <a href='mailto:treasurer@compsoc.org.nz'>treasurer@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/hamish.jpg' alt='Hamish Johnston'/>
-                            <span class='name'>Hamish Johnston</span>
-                            <span class='position'>Secretary <br /> Equity Officer</span>
+                            <img src='resources/firstyear.png' alt='Exequiel Bahamonde Cárcamo'/>
+                            <span class='name'>Exequiel Bahamonde Cárcamo</span>
+                            <span class='position'>Secretary <div /> Equity Officer</span>
                             <a href='mailto:secretary@compsoc.org.nz'>secretary@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/amanda.jpg' alt='Amanda Deacon'/>
-                            <span class='name'>Amanda Deacon</span>
-                            <span class='position'>Academic Events Director</span>
+                            <img src='resources/kusal2018.jpg' alt='Kusal Ekanayake'/>
+                            <span class='name'>Kusal Ekanayake</span>
+                            <span class='position'>Marketing Director</span>
+                            <a href='mailto:marketing@compsoc.org.nz'>marketing@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Rebecka Cox'/>
+                            <span class='name'>Rebecka Cox</span>
+                            <span class='position'>Academic Events Manager</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
                             <img src='resources/sas.jpg' alt='Sam Spekreijse'/>
                             <span class='name'>Sam Spekreijse</span>
-                            <span class='position'>Academic Tutoring Director</span>
+                            <span class='position'>Academic Events Manager</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/nelson.jpg' alt='Nelson Galea'/>
-                            <span class='name'>Nelson Galea</span>
-                            <span class='position'>Marketing Director</span>
-                            <a href='mailto:marketing@compsoc.org.nz'>marketing@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
-                            <img src='resources/kirill.jpg' alt='Kirill Kirillo'/>
-                            <span class='name'>Kirill Kirillov</span>
-                            <span class='position'>Social Event Manager</span>
+                            <img src='resources/firstyear.png' alt='William Muir'/>
+                            <span class='name'>William Muir</span>
+                            <span class='position'>Social Events Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/chris.jpg' alt='Chris Guo'/>
-                            <span class='name'>Chris Guo</span>
-                            <span class='position'>Social Event Manager</span>
+                            <img src='resources/ashleigh2018.jpg' alt='Ashleigh McLaughlin'/>
+                            <span class='name'>Ashleigh McLaughlin</span>
+                            <span class='position'>Social Events Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/aaronbong.jpg' alt='Aaron Bong'/>
-                            <span class='name'>Aaron Bong</span>
-                            <span class='position'>Second Year Representative <br /> Equity Officer</span>
-                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
+                            <img src='resources/firstyear.png' alt='James Paterson'/>
+                            <span class='name'>James Paterson</span>
+                            <span class='position'>Maths/ Stats Postgraduate Representative</span>
+                            <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/philippa.jpg' alt='Philippa Richardson'/>
-                            <span class='name'>Philippa Richardson</span>
-                            <span class='position'>Second Year Representative</span>
-                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
+                            <img src='resources/firstyear.png' alt='Harrigan Devonport'/>
+                            <span class='name'>Harrigan Devonport</span>
+                            <span class='position'>CSSE Postgraduate Representative</span>
+                            <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Shaylee Bright'/>
-                            <span class='name'>Shaylee Bright</span>
-                            <span class='position'>First Year Representative</span>
-                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                            <img src='resources/firstyear.png' alt='Jen Lowe'/>
+                            <span class='name'>Jen Lowe</span>
+                            <span class='position'>Maths/ Stats Representative</span>
+                            <a href='mailto:math.stat@compsoc.org.nz'>math.stats@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Elizabeth Wilson'/>
+                            <span class='name'>Elizabeth Wilson</span>
+                            <span class='position'>Third Year Representative</span>
+                            <a href='mailto:thirdyear@compsoc.org.nz'>thirdyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Alana Reid'/>
+                            <span class='name'>Alana Reid</span>
+                            <span class='position'>Third Year Representative</span>
+                            <a href='mailto:thirdyear@compsoc.org.nz'>thirdyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
                             <img src='resources/Tiger.jpg' alt='Tiger Huang'/>
                             <span class='name'>Tiger Huang</span>
-                            <span class='position'>First Year Representative</span>
-                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                            <span class='position'>Second Year Representative</span>
+                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
                             <img src='resources/firstyear.png' alt='Gavin Ong'/>
                             <span class='name'>Gavin Ong</span>
+                            <span class='position'>Second Year Representative</span>
+                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Patricia David'/>
+                            <span class='name'>Patricia David</span>
+                            <span class='position'>Second Year Representative</span>
+                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='first year'/>
+                            <span class='name'>You?</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='first year'/>
+                            <span class='name'>You?</span>
+                            <span class='position'>First Year Representative</span>
+                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='first year'/>
+                            <span class='name'>You?</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
@@ -176,6 +218,10 @@ include 'include/header.php';
                         </li>
                         <li>
                             <span class='name'>Samuel Yamoah</span>
+                            <span class='position'>Vice President</span>
+                        </li>
+                        <li>
+                            <span class='name'>Louis Attenborough</span>
                             <span class='position'>Treasurer</span>
                         </li>
                         <li>
@@ -197,14 +243,6 @@ include 'include/header.php';
                         <li>
                             <span class='name'>Chris Guo</span>
                             <span class='position'>Social Events Manager</span>
-                        </li>
-                        <li>
-                            <span class='name'>Nelson Galea</span>
-                            <span class='position'>Marketing Director</span>
-                        </li>
-                        <li>
-                            <span class='name'>Aaron Bong</span>
-                            <span class='position'>Second Year Representative <br /> Equity Officer</span>
                         </li>
                         <li>
                             <span class='name'>Philippa Richardson</span>
