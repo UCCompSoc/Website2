@@ -76,7 +76,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/philippa.jpg' alt='Philippa Richardson'/>
+                            <img src='resources/philippa2018.jpg' alt='Philippa Richardson'/>
                             <span class='name'>Philippa Richardson</span>
                             <span class='position'>Treasurer</span>
                             <a href='mailto:treasurer@compsoc.org.nz'>treasurer@compsoc.org.nz</a>
@@ -133,7 +133,7 @@ include 'include/header.php';
 
                         <li>
                             <img src='resources/firstyear.png' alt='Harrigan Davenport'/>
-                            <span class='name'>Harrigan Devonport</span>
+                            <span class='name'>Harrigan Davenport</span>
                             <span class='position'>CSSE Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
@@ -160,7 +160,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/Tiger.jpg' alt='Tiger Huang'/>
+                            <img src='resources/tiger2018.jpg' alt='Tiger Huang'/>
                             <span class='name'>Tiger Huang</span>
                             <span class='position'>Second Year Representative</span>
                             <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
