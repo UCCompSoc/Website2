@@ -32,12 +32,14 @@ include 'include/header.php';
 
                         <p>For enquiries about academic events, email <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>.</p>
 
-                        <p>We encourage students to reach out to their corrensponding representatives. They can be reached at:
+                        <p>For enquiries about maths/stats events, email <a href='mailto:math.stat@compsoc.org.nz'>math.stat@compsoc.org.nz</a>.</p>
+
+                        <p>We encourage students to reach out to their corresponding representatives. They can be reached at:
                             <ul>
                                 <li>100-level: <a href="mailto:firstyear@compsoc.org.nz">firstyear@compsoc.org.nz</a></li>
                                 <li>200-level: <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a></li>
                                 <li>300-level: <a href="mailto:thirdyear@compsoc.org.nz">thirdyear@compsoc.org.nz</a></li>
-                                <li>Postgraduate: <a href="mailto:postgrad@compsoc.org.nz">postgrad@compsoc.org.nz</a></li>
+                                <li>Postgraduate (CSSE & Math/Stats): <a href="mailto:postgrad@compsoc.org.nz">postgrad@compsoc.org.nz</a></li>
                             </ul>
                         </p>
                     </div>

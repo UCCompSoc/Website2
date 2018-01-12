@@ -33,7 +33,8 @@ include 'include/header.php';
             </div>
 
             <div class='text larger left'>
-                <p>CompSoc is the University of Canterbury's Computer Society, dedicated to providing the UC community, a wide range of events and opportunities. CompSoc aims to offer students the full uni experience, with great events ranging from social BBQs to academic workshops, as well as enough industry opportunities to succeed university and beyond.</p>
+                <p>CompSoc is the University of Canterbury’s Computer Society, representing students in Computer Science, Software Engineering, Mathematics, Statistics, and related areas.
+                    CompSoc facilitates students to engage with their departments & colleges, meet industry professionals and enjoy our range of social events.</p>
 
                 <p><a href='about.php'>Read more...</a></p>
             </div>
@@ -49,7 +50,7 @@ include 'include/header.php';
             </div>
 
             <div class='text larger right'>
-                <p>CompSoc offers a range of events for any individual, ranging from assisting with academic pursuits, to exciting industry opportunities and even social events for relaxing and meeting fellow like minded people. Recent events include club bbq, academic tutorials, CSSE careers fair and much more.</p>
+                <p>Our goal is to help our members grow academically, socially, and professionally with a range of events throughout the year. From relaxing at our termly BBQs, getting help and advice at our weekly help sessions, to networking opportunities with key members of companies from around New Zealand, Australia and the world.</p>
 
                 <p><a href='events.php'>Read more...</a></p>
             </div>
@@ -65,7 +66,7 @@ include 'include/header.php';
             </div>
 
             <div class='text larger left'>
-                <p>CompSoc aims to provide all sorts of useful services and support to help any and all students through the year. These include physical and mental health information, the "CompSoc Unofficial Guide to CSSE" and up to date information on our special CompSoc workshops. We also have office hours for any in-person questions.</p>
+                <p>CompSoc aims to provide all sorts of useful services and support to help any and all students through the year. These include physical and mental health information, the "CompSoc Unofficial Guide to CSSE" and up to date information on our special CompSoc workshops.</p>
 
                 <p><a href='resources.php'>Read more...</a></p>
             </div>

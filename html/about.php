@@ -23,10 +23,12 @@ include 'include/header.php';
                     </div> -->
 
                     <div class='text'>
-                        <p>CompSoc is the University of Canterbury's Computer Society, dedicated to providing the UC community, a wide range of events and opportunities. CompSoc aims to offer students the full uni experience, with great events ranging from social BBQs to academic workshops, as well as enough industry opportunities to succeed university and beyond.</p>
+                        <p>CompSoc is the University of Canterbury’s Computer Society, representing students in Computer Science, Software Engineering, Mathematics, Statistics, and related areas.
+                            CompSoc facilitates students to engage with their departments & colleges, meet industry professionals and enjoy our range of social events.</p>
 
 
-                        <p>CompSoc is a club fostering an inclusive and diverse environment for anyone interested in the CSSE department, or even just keen on chilling with a variety of like-minded students.  You can meet industry leaders from all over the world, or work on a problem with one of our mentors. If you would like to be part of such a innovative and evolving club then CompSoc is for you. CompSoc is all about enhancing your time at university, both socially and academically.</p>
+                        <p>Our goal is to help our members grow academically, socially, and professionally with a range of events throughout the year. From relaxing at our termly BBQs, getting help and advice at our weekly help sessions, to networking opportunities with key members of companies from around New Zealand, Australia and the world.
+                            While we strongly encourage CSSE and Math&Stats students to join, we welcome students from across all faculties. So whatever you’re interested in, you are bound to find something that you will enjoy.</p>
                     </div>
 
                     <div class='clearfix'></div>
@@ -41,7 +43,7 @@ include 'include/header.php';
 
                     <div class='text larger right'>
 
-                        <p>CompSoc has held a strong presence in the UC community since our beginnings in 2003, but our “written history” begins in late 2010 with six passionate computer science students. Since then, our club has grown steadily - the committee is now more than twice its original size! At the beginning of 2016, CompSoc rebranded to become the beautiful blue and orange masterpiece it is today. In 2017, and moving forward, we strive to expand the range and quality of our events and opportunities for all students.</p>
+                        <p>CompSoc has held a strong presence in the UC community since our beginnings in 2003, but our “written history” begins in late 2010 with six passionate computer science students. Since then, our club has grown steadily - the committee is now more than three times its original size! At the beginning of 2016, CompSoc rebranded to become the beautiful blue and orange masterpiece it is today. In 2018, and moving forward, we strive to expand the range and quality of our events and opportunities for all students.</p>
 
                     </div>
 
@@ -53,7 +55,7 @@ include 'include/header.php';
 
                     <ul class='current-committee'>
                         <li>
-                            <img src='resources/firstyear.png' alt='Louis Attenborough'/>
+                            <img src='resources/louis2018.jpg' alt='Louis Attenborough'/>
                             <span class='name'>Louis Attenborough</span>
                             <span class='position'>President</span>
                             <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>
@@ -67,7 +69,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Hamish Johnston'/>
+                            <img src='resources/hamish2018.jpeg' alt='Hamish Johnston'/>
                             <span class='name'>Hamish Johnston</span>
                             <span class='position'>Vice President <br /> Equity Officer</span>
                             <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>
@@ -81,7 +83,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Exequiel Bahamonde Cárcamo'/>
+                            <img src='resources/exe2018.jpg' alt='Exequiel Bahamonde Cárcamo'/>
                             <span class='name'>Exequiel Bahamonde Cárcamo</span>
                             <span class='position'>Secretary <div /> Equity Officer</span>
                             <a href='mailto:secretary@compsoc.org.nz'>secretary@compsoc.org.nz</a>
@@ -95,21 +97,21 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Rebecka Cox'/>
+                            <img src='resources/rebecka2018.jpg' alt='Rebecka Cox'/>
                             <span class='name'>Rebecka Cox</span>
                             <span class='position'>Academic Events Manager</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/sas.jpg' alt='Sam Spekreijse'/>
+                            <img src='resources/sas2018.jpg' alt='Sam Spekreijse'/>
                             <span class='name'>Sam Spekreijse</span>
                             <span class='position'>Academic Events Manager</span>
                             <a href='mailto:academic@compsoc.org.nz'>academic@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='William Muir'/>
+                            <img src='resources/william2018.jpg' alt='William Muir'/>
                             <span class='name'>William Muir</span>
                             <span class='position'>Social Events Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
@@ -130,21 +132,21 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Harrigan Devonport'/>
+                            <img src='resources/firstyear.png' alt='Harrigan Davenport'/>
                             <span class='name'>Harrigan Devonport</span>
                             <span class='position'>CSSE Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Jen Lowe'/>
+                            <img src='resources/jen2018.jpg' alt='Jen Lowe'/>
                             <span class='name'>Jen Lowe</span>
                             <span class='position'>Maths/ Stats Representative</span>
                             <a href='mailto:math.stat@compsoc.org.nz'>math.stats@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Elizabeth Wilson'/>
+                            <img src='resources/elizabeth2018.png' alt='Elizabeth Wilson'/>
                             <span class='name'>Elizabeth Wilson</span>
                             <span class='position'>Third Year Representative</span>
                             <a href='mailto:thirdyear@compsoc.org.nz'>thirdyear@compsoc.org.nz</a>
@@ -172,7 +174,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Patricia David'/>
+                            <img src='resources/patricia2018.jpg' alt='Patricia David'/>
                             <span class='name'>Patricia David</span>
                             <span class='position'>Second Year Representative</span>
                             <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
@@ -207,7 +209,7 @@ include 'include/header.php';
 
                     <ul class='past-committee'>
                         <h4>2017</h4>
-                        <img src='resources/committee_404.png' alt='2017 Committee' />
+                        <img src='resources/2017.jpg' alt='2017 Committee' />
                         <li>
                             <span class='name'>Emily Price</span>
                             <span class='position'>President</span>

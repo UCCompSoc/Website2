@@ -37,25 +37,25 @@ include 'include/header.php';
                     <div class='text'>
                         <h4>Social BBQs</h4>
                         <p>
-                            We try to have one every term, and we always fulfill our duty in providing you kegs on tap and enough sausages and hash browns to fill you right up.
+                            We try to have one every term, and we always fulfill our duty in providing you kegs on tap and enough sausages, chicken nuggets and hash browns to fill you right up.
                             <!-- https://mega.nz/#F!uBoFgJjL!A68kRpjxZ70lrI7Z2sScCA -->
                         </p>
                     </div>
 
                     <div class='image'>
-                        <img src='resources/bbq.jpg' alt='Barbeque' class='bordered'>
+                        <img src='resources/bbq-3-2017.jpg' alt='Barbeque' class='bordered'>
                     </div>
 
                     <div class='text'>
                         <h4>Dota 2 LAN Tournaments</h4>
                         <p>
-                            E-Sports is a growing phenomenon, and we're getting on board with one of the biggest Dota 2 Tournaments in the South Island with over 130 attendees and 80 contestants.
+                            E-Sports is a growing phenomenon, and we're getting on board with one of the biggest Dota 2 Tournaments in the South Island in 2017 we had 16 teams battling it out for the title of the greatest Dota 2 team at UC.
                             <!-- https://mega.nz/#F!SRQUDSoR!kD9QXrLcIknAPx6OrlprIg -->
                         </p>
                     </div>
 
                     <div class='image'>
-                        <img src='resources/dota.jpg' alt='Dota 2 Tournament' class='bordered'>
+                        <img src='resources/dota2-2017.jpg' alt='Dota 2 Tournament' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -66,7 +66,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='resources/industry.jpg' alt='Industry Events' class='bordered'>
+                        <img src='resources/xeroEvent-2017.jpg' alt='Industry Events' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -87,21 +87,12 @@ include 'include/header.php';
                         <h4>CS+X Festival</h4>
                         <p>
                             A series of talks dedicated to discovering fun, inspiring, and unexpected ways that computer science impacts our world and relates to the topics that you are passionate about. The CS + X Festival features talks, workshops, and videos by a diverse range of industry professionals and researchers.
-                            More information from 2015s event can be found at <a href='https://cs-plus-x-uc.appspot.com/'>https://cs-plus-x-uc.appspot.com/</a>
                         </p>
                     </div>
 
-                    <div class='text'>
-                        <p>Other events which we aim to hold in 2017 include:</p>
-                        <ul>
-                            <li>CantaCode (Cantamath style computer science competition)</li>
-                            <li>Smaller social activities such as board game and movie nights</li>
-                        </ul>
-                    </div>
-
-                    <div class='clearfix'></div>
 
                 </section>
+                <div class='clearfix'></div>
             </div>
         </div>
 
