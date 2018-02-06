@@ -125,7 +125,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='James Paterson'/>
+                            <img src='resources/james2018.jpg' alt='James Paterson'/>
                             <span class='name'>James Paterson</span>
                             <span class='position'>Maths/ Stats Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
