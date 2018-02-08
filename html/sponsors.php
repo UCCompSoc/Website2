@@ -102,13 +102,12 @@ include 'include/header.php';
                         <p>What you can offer us:</p>
                         <ul>
                             <li>General financial assistance to keep us running throughout the year.</li>
-                            <li>Schwag / goodie bags (Especially earlier in the year for club membership sign ups)</li>
-                            <li>Services</li>
+                            <li>Swag / goodie bags (Especially earlier in the year for club membership sign ups)</li>
                             <li>Sponsorship for events, e.g. for food and drinks, speakers, prizes, etc.</li>
                             <li>Representatives from your company coming in to talk about software development in the real world</li>
                         </ul>
 
-                        <p>Interested in helping us out? Get in contact with the president at <a href='mailto:president@compsoc.org.nz'>president@compsoc.org.nz</a>.</p>
+                        <p>Interested in helping us out? Get in contact with us here: <a href='mailto:sponsorship@compsoc.org.nz'>sponsorship@compsoc.org.nz</a>.</p>
                     </div>
                 </section>
             </div>

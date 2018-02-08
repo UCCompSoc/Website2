@@ -22,7 +22,7 @@ include 'include/header.php';
 
                         <p>For membership enquiries, email <a href='mailto:membership@compsoc.org.nz'>membership@compsoc.org.nz</a></p>
 
-                        <p>For sponsorship enquiries, email <a href='mailto:vice.president@compsoc.org.nz'>vice.president@compsoc.org.nz</a>.</p>
+                        <p>For sponsorship enquiries, email <a href='mailto:sponsorship@compsoc.org.nz'>sponsorship@compsoc.org.nz</a>.</p>
 
                         <p>For diversity-related enquiries, email <a href='mailto:equity@compsoc.org.nz'>equity@compsoc.org.nz</a>.</p>
 
