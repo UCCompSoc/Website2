@@ -64,7 +64,7 @@ var create_event = function (name, id, time, image) {
     if (image.offset_y === 0) {
         image.offset_y = 50;
     }
-    img.setAttribute('class', 'img');
+    img.setAttribute('class', 'bordered');
     img.setAttribute('style', 'background-image: url(' +
         image.source + '); background-position: ' +
         image.offset_x + '% ' + image.offset_y + '%');
