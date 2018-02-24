@@ -58,13 +58,10 @@ var create_event = function (name, id, time, image) {
     // var img = new Image();
     var img = document.createElement('div');
     // img.src = image;
-    if (image.offset_x === 0) {
-        image.offset_x = 50;
-    }
-    if (image.offset_y === 0) {
-        image.offset_y = 50;
-    }
-    img.setAttribute('class', 'bordered');
+    image.offset_x = 50;
+    image.offset_y = 50;
+
+    img.setAttribute('class', 'img');
     img.setAttribute('style', 'background-image: url(' +
         image.source + '); background-position: ' +
         image.offset_x + '% ' + image.offset_y + '%');
