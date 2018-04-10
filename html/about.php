@@ -125,17 +125,24 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/james2018.jpg' alt='James Paterson'/>
-                            <span class='name'>James Paterson</span>
+                            <img src='resources/manveer2018.jpg' alt='Manveer Bhullar'/>
+                            <span class='name'>Manveer Bhullar</span>
                             <span class='position'>Maths/ Stats Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Harrigan Davenport'/>
-                            <span class='name'>Harrigan Davenport</span>
+                            <img src='resources/firstyear.png' alt=''/>
+                            <span class='name'>Position available</span>
                             <span class='position'>CSSE Postgraduate Representative</span>
                             <a href='mailto:postgrad@compsoc.org.nz'>postgrad@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Amanda Deacon'/>
+                            <span class='name'>Amanda Deacon</span>
+                            <span class='position'>Maths/ Stats Representative</span>
+                            <a href='mailto:math.stat@compsoc.org.nz'>math.stats@compsoc.org.nz</a>
                         </li>
 
                         <li>
@@ -153,8 +160,8 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Alana Reid'/>
-                            <span class='name'>Alana Reid</span>
+                            <img src='resources/firstyear.png' alt='Alanna Reid'/>
+                            <span class='name'>Alanna Reid</span>
                             <span class='position'>Third Year Representative</span>
                             <a href='mailto:thirdyear@compsoc.org.nz'>thirdyear@compsoc.org.nz</a>
                         </li>
@@ -167,13 +174,6 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Gavin Ong'/>
-                            <span class='name'>Gavin Ong</span>
-                            <span class='position'>Second Year Representative</span>
-                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
                             <img src='resources/patricia2018.jpg' alt='Patricia David'/>
                             <span class='name'>Patricia David</span>
                             <span class='position'>Second Year Representative</span>
@@ -181,15 +181,22 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='first year'/>
-                            <span class='name'>You?</span>
+                            <img src='resources/firstyear.png' alt='Gavin Ong'/>
+                            <span class='name'>Gavin Ong</span>
+                            <span class='position'>Second Year Representative</span>
+                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
+                        </li>
+
+                        <li>
+                            <img src='resources/firstyear.png' alt='Jake Faulkner'/>
+                            <span class='name'>Jake Faulkner</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='first year'/>
-                            <span class='name'>You?</span>
+                            <img src='resources/firstyear.png' alt='Rhys Jennings'/>
+                            <span class='name'>Rhys Jennings</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
