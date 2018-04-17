@@ -139,7 +139,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Amanda Deacon'/>
+                            <img src='resources/amanda2018.png' alt='Amanda Deacon'/>
                             <span class='name'>Amanda Deacon</span>
                             <span class='position'>Maths/ Stats Representative</span>
                             <a href='mailto:math.stat@compsoc.org.nz'>math.stats@compsoc.org.nz</a>
@@ -188,7 +188,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Jake Faulkner'/>
+                            <img src='resources/jake2018.jpg' alt='Jake Faulkner'/>
                             <span class='name'>Jake Faulkner</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
@@ -197,13 +197,6 @@ include 'include/header.php';
                         <li>
                             <img src='resources/firstyear.png' alt='Rhys Jennings'/>
                             <span class='name'>Rhys Jennings</span>
-                            <span class='position'>First Year Representative</span>
-                            <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
-                            <img src='resources/firstyear.png' alt='first year'/>
-                            <span class='name'>You?</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
                         </li>
