@@ -118,8 +118,8 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/ashleigh2018.jpg' alt='Ashleigh McLaughlin'/>
-                            <span class='name'>Ashleigh McLaughlin</span>
+                            <img src='resources/patricia2018.jpg' alt='Patricia David'/>
+                            <span class='name'>Patricia David</span>
                             <span class='position'>Social Events Manager</span>
                             <a href='mailto:social@compsoc.org.nz'>social@compsoc.org.nz</a>
                         </li>
@@ -174,13 +174,6 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/patricia2018.jpg' alt='Patricia David'/>
-                            <span class='name'>Patricia David</span>
-                            <span class='position'>Second Year Representative</span>
-                            <a href='mailto:secondyear@compsoc.org.nz'>secondyear@compsoc.org.nz</a>
-                        </li>
-
-                        <li>
                             <img src='resources/firstyear.png' alt='Gavin Ong'/>
                             <span class='name'>Gavin Ong</span>
                             <span class='position'>Second Year Representative</span>
@@ -195,7 +188,7 @@ include 'include/header.php';
                         </li>
 
                         <li>
-                            <img src='resources/firstyear.png' alt='Rhys Jennings'/>
+                            <img src='resources/rhys2018.png' alt='Rhys Jennings'/>
                             <span class='name'>Rhys Jennings</span>
                             <span class='position'>First Year Representative</span>
                             <a href='mailto:firstyear@compsoc.org.nz'>firstyear@compsoc.org.nz</a>
