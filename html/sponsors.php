@@ -17,14 +17,19 @@ include 'include/header.php';
 
                     <div class='sponsor'>
                         <div class='image'>
-                            <img src='resources/telogis.png' alt='Telogis image' style='max-width: 500px;'>
-                            <h4><a href='https://www.telogis.com/' target="_blank">Telogis</a></h4>
+                            <img src='resources/verizonConnect.png' alt='Verizon Connect image' style='max-width: 500px;'>
+                            <h4><a href='https://verizonconnect.com/' target="_blank">Verizon Connect</a></h4>
                         </div>
 
                         <div class='text'>
-                            <p>Telogis is committed to hiring and retaining a well-qualified, diverse and talented team of professionals while providing a strong company culture, exceptional benefits and employee growth opportunities. The talented, global Telogis team’s ability to exceed customer expectations and deliver the most innovative enterprise software platform in the industry has been the primary driver behind the company’s explosive growth. There is no better time than now to join the team at Telogis.</p>
-
-                            <a href="https://careers.telogis.com/nz/">Get a better IT job right here in NZ</a>
+                            <p>Verizon Connect offers web-based mobile workforce and fleet management software including GPS tracking, route planning, job management, navigation and compliance.</p>
+                            <p>The Christchurch office regularly hires at least 10 graduates each year, and 5 to 10 interns working year-round. Many interns stay on as permanent employees after graduation.
+                                The company is actively looking for software developers and engineers as well as business analysts, support engineers, software test engineers and software development managers.
+                            </p>
+                            <p>We look for staff who can embrace change and new ways of thinking – and move quickly. We’re a diverse mix of professionals who thrive in an atmosphere that promotes fresh ideas and challenges traditional systems.
+                                Our culture is one that values open communication, and is built on creativity and excellence.
+                            </p>
+                            <p>Learn more about our culture and values by visiting <a href="https://verizonconnect.com/company/careers">here.</a></p>
                         </div>
                     </div>
 
@@ -45,11 +50,12 @@ include 'include/header.php';
                         </div>
                     </div>
 
-                    <div class='clearfix'></div>
+
+                    <div class='clearfix'></div><div class='clearfix'></div>
 
                     <div class='sponsor'>
                         <div class='image'>
-                            <img src='resources/UC-engineering.png' alt='computer' style='max-width: 250px;'>
+                            <img src='resources/UC-engineering.png' alt='UC Engineering' style='max-width: 250px;'>
                             <h4><a href='http://www.canterbury.ac.nz/engineering/' target="_blank">UC Engineering</a></h4>
                         </div>
                         <div class = 'text'>
