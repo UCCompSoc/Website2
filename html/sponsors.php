@@ -50,8 +50,26 @@ include 'include/header.php';
                         </div>
                     </div>
 
-
                     <div class='clearfix'></div><div class='clearfix'></div>
+
+                    <div class='sponsor'>
+                        <div class='image'>
+                            <img src="resources/uccsse-sq-red.png" alt="UC CSSE Department" style="width: 250px">
+                            <h4><a href="http://www.csse.canterbury.ac.nz" target="_blank">UC CSSE Department</a></h4>
+                        </div>
+                        <div class="text">
+                            <p>
+                                UC Computer Science and Software Engineering is an internationally recognised department with wide research interests and award-winning internationally-diverse staff. QS World university rankings rate UC in the top 3 per cent of universities worldwide for engineering and technology.
+                                Based within the highly reputable UC College of Engineering, the department teaches into undergraduate and postgraduate programmes with courses ranging from theory and research to practical and applied project courses. The department has a close connection with industry.
+                                CSSE graduates are spread world-wide, working in a range of software development roles.
+                            </p>
+                            <p>
+                                For more information on the department, see: <a href="http://www.csse.canterbury.ac.nz">www.csse.canterbury.ac.nz</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
 
                     <div class='sponsor'>
                         <div class='image'>
@@ -59,7 +77,7 @@ include 'include/header.php';
                             <h4><a href='http://www.canterbury.ac.nz/engineering/' target="_blank">UC Engineering</a></h4>
                         </div>
                         <div class = 'text'>
-                            <p>UC Engineering have provided Compsoc with a great deal of support in 2017 and we are very grateful for everything that they have done. Without their help we wouldn't be able to provide our members with so many great events.</p>
+                            <p>UC Engineering provide Compsoc with a great deal of support every year and we are very grateful for everything that they have done. Without their help we wouldn't be able to provide our members with so many great events.</p>
 
                             <p>For more information and news from UC Engineering, see <a href='http://www.canterbury.ac.nz/engineering/'>their page here</a>.</p>
                         </div>
