@@ -48,6 +48,12 @@ include 'include/header.php';
                             <span class='description'>All the handy commands you wish you knew earlier.</span>
                             <div class='clearfix'></div>
                         </li>
+                        <li>
+                            <a href='/resources/LaTex_Tutorial_Presentation.pdf' target='_blank'><img src='resources/workshop.png' />
+                            <span class='title'>LaTeX Tutorial Presentation</span></a>
+                            <span class='description'>Helping you write pretty maths equations and more!</span>
+                            <div class='clearfix'></div>
+                        </li>
                     </ul>
 
                 </section>
