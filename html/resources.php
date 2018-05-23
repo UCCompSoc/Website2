@@ -49,7 +49,7 @@ include 'include/header.php';
                             <div class='clearfix'></div>
                         </li>
                         <li>
-                            <a href='/resources/LaTex_Tutorial_Presentation.pdf' target='_blank'><img src='resources/workshop.png' />
+                            <a href='https://drive.google.com/open?id=1BZwbEupTaZfc60yf77-TINfZmeveD9x1' target='_blank'><img src='resources/workshop.png' />
                             <span class='title'>LaTeX Tutorial Presentation</span></a>
                             <span class='description'>Helping you write pretty maths equations and more!</span>
                             <div class='clearfix'></div>
