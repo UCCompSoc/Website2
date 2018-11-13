@@ -54,6 +54,12 @@ include 'include/header.php';
                             <span class='description'>Helping you write pretty maths equations and more!</span>
                             <div class='clearfix'></div>
                         </li>
+			<li>
+			    <a href='https://drive.google.com/open?id=19eRyQ6BfcXxuSwug7Td3zgzgqtjQFWH4' target='_blank'><img src='resources/workshop.png' />
+			    <span class='title'>Python Debugging Workshop</span></a>
+			    <span class='description'>A helpful session to improve your Python debugging skills.</span>
+			    <div class='clearfix'></div>
+			</li>
                     </ul>
 
                 </section>
