@@ -1,8 +1,6 @@
-<?php
-$active = "events";
-$title = "Events";
-include 'include/header.php';
-?>
+{% extends "base.html" %}
+{% block title %} Events {% endblock %}
+{% block content %}
         <div class="main">
 
             <div class='mini-menu'>
@@ -15,19 +13,11 @@ include 'include/header.php';
                 <section id="upcoming">
                     <h2>Upcoming Events</h2>
 
-                    <div class='event-holder' id='event-holder'>
-                        <div class='event-scroll' id='event-scroll'>
-                            <img src='resources/loading.png' alt='loading' class='loading' />
-                        </div>
-                    </div>
-
                     <div class="text">
                         <p>
                             View all events on our <a href='https://www.facebook.com/UcCompSoc/events' target='_blank'>Facebook Events Page</a>.
                         </p>
                     </div>
-
-                    <div class='clearfix'></div>
 
                 </section>
 
@@ -43,7 +33,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='resources/bbq-3-2017.jpg' alt='Barbeque' class='bordered'>
+                        <img src="{{ url_for('static', filename='resources/bbq-3-2017.jpg') }}" alt='Barbeque' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -55,7 +45,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='resources/dota2-2017.jpg' alt='Dota 2 Tournament' class='bordered'>
+                        <img src="{{ url_for('static', filename='resources/dota2-2017.jpg') }}" alt='Dota 2 Tournament' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -66,7 +56,7 @@ include 'include/header.php';
                     </div>
 
                     <div class='image'>
-                        <img src='resources/xeroEvent-2017.jpg' alt='Industry Events' class='bordered'>
+                        <img src="{{ url_for('static', filename='resources/xeroEvent-2017.jpg') }}" alt='Industry Events' class='bordered'>
                     </div>
 
                     <div class='text'>
@@ -96,7 +86,5 @@ include 'include/header.php';
             </div>
         </div>
 
-<?php
-$scripts = array('scripts/min/events-min.js');
-include 'include/footer.php';
-?>
+
+{% endblock %}

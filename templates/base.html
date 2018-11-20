@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{% endblock %} - CompSoc - University of Canterbury Computer Society</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/master.css') }}" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mobile.css') }}" media="screen and (max-width: 700px)" title="no title" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for('static', filename='favicons/apple-touch-icon-57x57.png') }}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{ url_for('static', filename='favicons/apple-touch-icon-60x60.png') }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='favicons/apple-touch-icon-72x72.png') }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='favicons/apple-touch-icon-76x76.png') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='favicons/apple-touch-icon-114x114.png') }}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='favicons/apple-touch-icon-120x120.png') }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='favicons/apple-touch-icon-144x144.png') }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for('static', filename='favicons/apple-touch-icon-152x152.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicons/apple-touch-icon-180x180.png') }}">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicons/favicon-32x32.png') }}" sizes="32x32">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicons/android-chrome-192x192.png') }}" sizes="192x192">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicons/favicon-96x96.png') }}" sizes="96x96">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicons/favicon-16x16.png') }}" sizes="16x16">
+        <link rel="manifest" href="{{ url_for('static', filename='favicons/manifest.json') }}">
+        <link rel="mask-icon" href="{{ url_for('static', filename='favicons/safari-pinned-tab.svg') }}" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="{{ url_for('static', filename='favicons/mstile-144x144.png') }}">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="CompSoc - University of Canterburys Computer Society">
+
+    </head>
+    <body {% block body %} {% endblock %}>
+        
+        <nav class='full-blue'>
+        <span class='home-icon'>
+            <a href='/' >Home</a>
+        </span>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 400 400" class='menu-hamburger' id='menu-hamburger'>
+            <rect x="0" y="80" rx="40" ry="40" width="400" height="80" transform-origin="200 200" class="bar-top bar" />
+            <rect x="0" y="260" rx="40" ry="40" width="400" height="80" transform-origin="200 200" class="bar-bottom bar" />
+        </svg>
+        <span class='main-menu'>
+            <a href='/'>Home</a>
+            <a href='/about'>About</a>
+            <a href='/events'>Events</a>
+            <a href='/resources'>Resources</a>
+            <a href='/sponsors'>Sponsors</a>
+            <a href='/contact'>Contact</a>
+        </span>
+        </nav>
+        {% block content %}
+        {% endblock %}
+        <footer class='full-blue'>
+            &copy; CompSoc and <a href='http://www.potatosoftworks.com/' target='_blank'>Potato Softworks</a> 2018
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src='{{ url_for("static", filename="scripts/min/main-min.js") }}'></script>
+        {% block scripts %}
+        {% endblock %}
+      </body>
+</html>
