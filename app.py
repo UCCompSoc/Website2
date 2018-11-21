@@ -29,7 +29,9 @@ def event_loader():
     events = fetch_events(auth_token)
     return jsonify(events)
 
-
 @app.route('/events')
 def events():
     return render_template('events.html')
+
+if __name__ == '__main__':
+    app.run()
