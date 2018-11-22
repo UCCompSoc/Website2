@@ -23,12 +23,6 @@ def resources():
 def sponsors():
     return render_template('sponsors.html')
 
-@app.route('/events-loader')
-def event_loader():
-    auth_token = fetch_auth_token()
-    events = fetch_events(auth_token)
-    return jsonify(events)
-
 @app.route('/events')
 def events():
     return render_template('events.html')
