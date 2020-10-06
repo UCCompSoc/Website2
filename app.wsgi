@@ -1,4 +1,4 @@
 import sys
 
-sys.path.append('/var/www/Website/')
+sys.path.append('/home/compsoc/Website-Python')
 from app import app as application
