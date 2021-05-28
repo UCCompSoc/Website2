@@ -1,4 +1,6 @@
 import sys
 
-sys.path.append('/home/compsoc/Website-Python')
+# TODO have this be an environment variable instead
+sys.path.append('/web')
+
 from app import app as application

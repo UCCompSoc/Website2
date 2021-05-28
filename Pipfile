@@ -10,4 +10,5 @@ requests = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+# libapache2-mod-wsgi-py3 depends on 3.7 as of May 2021
+python_version = "3.7"
