@@ -6,11 +6,10 @@ at <https://compsoc.org.nz/>.
 ## Set up
 
 ```
-~$ docker build -t compsoc .
-~$ docker run -dit --name compsoc-server -p 8080:80 compsoc
+~$ ./run.sh
 ```
 
-If the shell is needed:
+If a shell environment within the container is needed, run this afterwards:
 
 ```
 ~$ docker exec -it compsoc-server /bin/bash
