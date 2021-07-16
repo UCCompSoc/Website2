@@ -14,6 +14,10 @@ COPY apache/apache2.conf /etc/apache2/apache2.conf
 COPY apache/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY apache/000-default-le-ssl.conf /etc/apache2/sites-available/000-default-le-ssl.conf
 
+# enable when certbot is installed
+#
+# RUN a2enmod ssl
+
 RUN a2enmod wsgi
 RUN a2enmod rewrite
 RUN a2ensite 000-default
